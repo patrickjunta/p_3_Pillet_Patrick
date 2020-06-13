@@ -1,3 +1,23 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 10vh;
+    background-color: color(primary);
+
+    a {
+        color: color(secondary);
+        font-size: 2rem;
+        font-weight: 900;
+        margin: 2%;
+    }
+    a:hover {
+        color: color(accent);
+        text-decoration: none;
+    }
+}

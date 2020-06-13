@@ -1,3 +1,54 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+.menu--card {
+    @include box-shadow;
+    @include flexbox;
+    width: 46%;
+    margin: 1% 2%;
+    width: 30%;
+    height: 30vh;
+    @include transform--scale1;
+    @include transition;    
+}
+
+.menu--card:hover{
+    @include transform--scale11;
+}
+
+i {
+    @include linear-gradient(#e6250b, orange);
+    
+  }
+
+nav#parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 3px pink;
+}
+
+#lanuitenchantee{
+    background: #fcdfdb;
+}
+#lechicalafrancaise{
+    background: #fff5fe;
+}
+#ledelicedespapilles{
+    background: #f9f9f9;
+}
+#lapalettedugout{
+    background: #fdfffd;
+}
+
+aside{
+    @include flexbox;
+    @include border-radius;
+    background: color(primary);
+    color: color(secondary);
+    margin: 2% 35%;  
+}
+

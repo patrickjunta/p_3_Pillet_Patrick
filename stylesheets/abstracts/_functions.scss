@@ -28,3 +28,10 @@
 @function font($path, $base: $base-url) {
   @return asset($base, 'fonts/', $path);
 }
+
+
+///fonction pour les couleurs
+@function color($color-name) {
+  @return map-get($colors , $color-name)
+}
+
