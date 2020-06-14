@@ -574,16 +574,41 @@ nav#parent {
   background: #fcdfdb;
 }
 
+#lanuitenchantee h2 {
+  color: #492025;
+}
+
 #lechicalafrancaise {
   background: #fff5fe;
+}
+
+#lechicalafrancaise h2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c6a6fd), to(#cb7d22));
+  background: linear-gradient(#c6a6fd, #cb7d22);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 #ledelicedespapilles {
   background: #f9f9f9;
 }
 
+#ledelicedespapilles h2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1b46e2), to(#83a3f0));
+  background: linear-gradient(#1b46e2, #83a3f0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 #lapalettedugout {
   background: #fdfffd;
+}
+
+#lapalettedugout h2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5ea758), to(#d0fea2));
+  background: linear-gradient(#5ea758, #d0fea2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 aside {
