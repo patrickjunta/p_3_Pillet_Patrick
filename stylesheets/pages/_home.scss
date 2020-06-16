@@ -38,11 +38,23 @@ nav#parent {
     color: #492025;
     font-family: 'Devonshire', cursive;
 }
+#lanoteenchantee span{
+    color: #492025;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 600;
+}
+
 #lechicalafrancaise{
     background: #fff5fe;
 } ///linear-gradient(to right, #E47D7D 0%, #C195D3 50%, #4FB4E8 100%);
 #lechicalafrancaise h2{
     @include linear-gradient( #c6a6fd, #cb7d22);
+    font-family: 'Montserrat', sans-serif;
+}
+#lechicalafrancaise span{
+    @include linear-gradient( #c6a6fd, #cb7d22);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
 }
 
 #ledelicedespapilles{
@@ -50,6 +62,11 @@ nav#parent {
 }
 #ledelicedespapilles h2{
     @include linear-gradient(#1b46e2, #83a3f0);
+    font-family: 'Dancing Script', cursive;
+}    
+#ledelicedespapilles span{
+    @include linear-gradient(#1b46e2, #83a3f0);
+    font-family: 'Kaushan Script', cursive;
 }    
 
 #lapalettedugout{
@@ -57,6 +74,7 @@ nav#parent {
 }
 #lapalettedugout h2{
     @include linear-gradient(#5ea758, #d0fea2);
+    font-family: 'Kaushan Script', cursive;
 }
 
 aside{

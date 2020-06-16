@@ -584,6 +584,12 @@ nav#parent {
   font-family: 'Devonshire', cursive;
 }
 
+#lanoteenchantee span {
+  color: #492025;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 600;
+}
+
 #lechicalafrancaise {
   background: #fff5fe;
 }
@@ -593,6 +599,16 @@ nav#parent {
   background: linear-gradient(#c6a6fd, #cb7d22);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#lechicalafrancaise span {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c6a6fd), to(#cb7d22));
+  background: linear-gradient(#c6a6fd, #cb7d22);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
 }
 
 #ledelicedespapilles {
@@ -604,6 +620,15 @@ nav#parent {
   background: linear-gradient(#1b46e2, #83a3f0);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-family: 'Dancing Script', cursive;
+}
+
+#ledelicedespapilles span {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1b46e2), to(#83a3f0));
+  background: linear-gradient(#1b46e2, #83a3f0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Kaushan Script', cursive;
 }
 
 #lapalettedugout {
@@ -615,6 +640,7 @@ nav#parent {
   background: linear-gradient(#5ea758, #d0fea2);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-family: 'Kaushan Script', cursive;
 }
 
 aside {
@@ -685,5 +711,43 @@ p {
   width: 100%;
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
+}
+
+.lechicalafrancaise {
+  font-family: 'Roboto Slab', serif;
+}
+
+.lechicalafrancaise h2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c6a6fd), to(#cb7d22));
+  background: linear-gradient(#c6a6fd, #cb7d22);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#lechicalafrancaise--entree {
+  text-align: center;
+}
+
+.lechicalafrancaise--flex {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.lechicalafrancaise span {
+  float: right;
 }
 /*# sourceMappingURL=main.css.map */
