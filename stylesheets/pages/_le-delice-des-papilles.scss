@@ -1,0 +1,33 @@
+
+.ledelicedespapilles h2{
+    @include linear-gradient(#1b46e2, #83a3f0);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
+#ledelicedespapilles span{
+    // font-family: 'Kaushan Script', cursive;
+    font-family: 'Dancing Script', cursive;
+
+}    
+#ledelicedespapilles--entree{
+    text-align: center;   
+}
+
+.ledelicedespapilles--flex{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Dancing Script', cursive;
+}
+.ledelicedespapilles span{
+    // border: solid 5px pink;
+    font-family: 'Dancing Script', cursive;
+    float: right;
+}
+.ledelicedespapilles p {
+    font-family: 'Dancing Script', cursive;
+}
