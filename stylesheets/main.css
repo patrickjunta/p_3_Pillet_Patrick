@@ -551,10 +551,11 @@ footer a:hover {
 }
 
 i {
-  background: -webkit-gradient(linear, left top, left bottom, from(#e6250b), to(orange));
-  background: linear-gradient(#e6250b, orange);
-  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(#e6250b), to(orange));
+  background: linear-gradient(90deg, #e6250b, orange);
+  background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 nav#parent {
@@ -595,18 +596,20 @@ nav#parent {
 }
 
 #lechicalafrancaise h2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#c6a6fd), to(#cb7d22));
-  background: linear-gradient(#c6a6fd, #cb7d22);
-  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(#c6a6fd), to(#cb7d22));
+  background: linear-gradient(90deg, #c6a6fd, #cb7d22);
+  background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Montserrat', sans-serif;
 }
 
 #lechicalafrancaise span {
-  background: -webkit-gradient(linear, left top, left bottom, from(#c6a6fd), to(#cb7d22));
-  background: linear-gradient(#c6a6fd, #cb7d22);
-  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(#c6a6fd), to(#cb7d22));
+  background: linear-gradient(90deg, #c6a6fd, #cb7d22);
+  background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Roboto Slab', serif;
   font-weight: 500;
 }
@@ -616,18 +619,20 @@ nav#parent {
 }
 
 #ledelicedespapilles h2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1b46e2), to(#83a3f0));
-  background: linear-gradient(#1b46e2, #83a3f0);
-  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(#1b46e2), to(#83a3f0));
+  background: linear-gradient(90deg, #1b46e2, #83a3f0);
+  background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Dancing Script', cursive;
 }
 
 #ledelicedespapilles span {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1b46e2), to(#83a3f0));
-  background: linear-gradient(#1b46e2, #83a3f0);
-  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(#1b46e2), to(#83a3f0));
+  background: linear-gradient(90deg, #1b46e2, #83a3f0);
+  background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Kaushan Script', cursive;
 }
 
@@ -636,10 +641,11 @@ nav#parent {
 }
 
 #lapalettedugout h2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#5ea758), to(#d0fea2));
-  background: linear-gradient(#5ea758, #d0fea2);
-  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(#5ea758), to(#d0fea2));
+  background: linear-gradient(90deg, #5ea758, #d0fea2);
+  background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Kaushan Script', cursive;
 }
 
@@ -718,10 +724,8 @@ p {
 }
 
 .lechicalafrancaise h2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#c6a6fd), to(#cb7d22));
-  background: linear-gradient(#c6a6fd, #cb7d22);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: -webkit-gradient(linear, left top, right top, from(#cb7d22), to(#c6a6fd));
+  background: linear-gradient(90deg, #cb7d22, #c6a6fd);
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -754,8 +758,6 @@ p {
 .ledelicedespapilles h2 {
   background: -webkit-gradient(linear, left top, left bottom, from(#1b46e2), to(#83a3f0));
   background: linear-gradient(#1b46e2, #83a3f0);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
   font-family: 'Dancing Script', cursive;
   text-align: center;
   font-size: 3rem;
@@ -799,8 +801,6 @@ p {
 .lapalettedugout h2 {
   background: -webkit-gradient(linear, left top, left bottom, from(#5ea758), to(#d0fea2));
   background: linear-gradient(#5ea758, #d0fea2);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
   font-family: 'Kaushan Script', cursive;
   text-align: center;
   font-size: 3rem;

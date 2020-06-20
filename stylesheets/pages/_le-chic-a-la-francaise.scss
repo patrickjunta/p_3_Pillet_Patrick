@@ -2,7 +2,7 @@
     font-family: 'Roboto Slab', serif;
 }
 .lechicalafrancaise h2{
-    @include linear-gradient( #c6a6fd, #cb7d22);
+    background: linear-gradient(90deg, #cb7d22, #c6a6fd);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }

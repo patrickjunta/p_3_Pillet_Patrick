@@ -74,9 +74,3 @@
   -ms-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;  
 }
-
-@mixin linear-gradient ($direction, $color-stops) {
-  background: linear-gradient($direction, $color-stops);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}

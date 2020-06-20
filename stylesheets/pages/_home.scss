@@ -20,7 +20,10 @@
 }
 
 i {
-    @include linear-gradient(#e6250b, orange);
+    background: linear-gradient(90deg, #e6250b, orange);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 nav#parent {
@@ -48,11 +51,17 @@ nav#parent {
     background: #fff5fe;
 } ///linear-gradient(to right, #E47D7D 0%, #C195D3 50%, #4FB4E8 100%);
 #lechicalafrancaise h2{
-    @include linear-gradient( #c6a6fd, #cb7d22);
+    background: linear-gradient(90deg, #c6a6fd, #cb7d22);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Montserrat', sans-serif;
 }
 #lechicalafrancaise span{
-    @include linear-gradient( #c6a6fd, #cb7d22);
+    background: linear-gradient(90deg, #c6a6fd, #cb7d22);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
 }
@@ -61,11 +70,17 @@ nav#parent {
     background: #f9f9f9;
 }
 #ledelicedespapilles h2{
-    @include linear-gradient(#1b46e2, #83a3f0);
+    background: linear-gradient(90deg, #1b46e2, #83a3f0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Dancing Script', cursive;
 }    
 #ledelicedespapilles span{
-    @include linear-gradient(#1b46e2, #83a3f0);
+    background: linear-gradient(90deg, #1b46e2, #83a3f0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Kaushan Script', cursive;
 }    
 
@@ -73,7 +88,10 @@ nav#parent {
     background: #fdfffd;
 }
 #lapalettedugout h2{
-    @include linear-gradient(#5ea758, #d0fea2);
+    background: linear-gradient(90deg, #5ea758, #d0fea2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Kaushan Script', cursive;
 }
 
