@@ -1,29 +1,29 @@
 #parent {
-    @include flexbox;
-    width: 70%;
-    margin: auto;
+  @include flexbox;
+  width: 70%;
+  margin: auto;
 }
 section {
-    width: 80%;
-    border: solid 4px blue;
+  width: 80%;
+  border: solid 4px blue;
 }
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
-h3{
-    font-family: 'Devonshire', cursive;
-    font-size: 44px;
-    letter-spacing: 2px;
-    text-align: center;
+h3 {
+  font-family: "Devonshire", cursive;
+  font-size: 44px;
+  letter-spacing: 2px;
+  text-align: center;
 }
-h4{
-    text-align: center;
-    font-family: 'Kaushan Script', cursive;
+h4 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
 }
 
-p{
-    border: ridge 4px red;
-    width: 100%;
-    text-align: justify;
-    font-family: 'Montserrat', sans-serif;
+p {
+  border: ridge 4px red;
+  width: 100%;
+  // text-align: justify;
+  font-family: "Montserrat", sans-serif;
 }

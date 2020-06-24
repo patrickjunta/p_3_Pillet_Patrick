@@ -597,7 +597,7 @@ nav#parent {
 
 #lechicalafrancaise h2 {
   background: -webkit-gradient(linear, left top, right top, from(#c6a6fd), to(#cb7d22));
-  background: linear-gradient(90deg, #c6a6fd, #cb7d22);
+  background: linear-gradient(0.25turn, #c6a6fd, #cb7d22);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -606,7 +606,7 @@ nav#parent {
 
 #lechicalafrancaise span {
   background: -webkit-gradient(linear, left top, right top, from(#c6a6fd), to(#cb7d22));
-  background: linear-gradient(90deg, #c6a6fd, #cb7d22);
+  background: linear-gradient(0.25turn, #c6a6fd, #cb7d22);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -701,7 +701,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Devonshire', cursive;
+  font-family: "Devonshire", cursive;
   font-size: 44px;
   letter-spacing: 2px;
   text-align: center;
@@ -709,14 +709,13 @@ h3 {
 
 h4 {
   text-align: center;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }
 
 p {
   border: ridge 4px red;
   width: 100%;
-  text-align: justify;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .lechicalafrancaise {
@@ -726,6 +725,9 @@ p {
 .lechicalafrancaise h2 {
   background: -webkit-gradient(linear, left top, right top, from(#cb7d22), to(#c6a6fd));
   background: linear-gradient(90deg, #cb7d22, #c6a6fd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -735,8 +737,7 @@ p {
 }
 
 .lechicalafrancaise--flex {
-  width: 90%;
-  margin: auto;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -751,14 +752,17 @@ p {
       justify-content: space-around;
 }
 
-.lechicalafrancaise span {
+.lechicalafrancaise--flex span {
   float: right;
 }
 
 .ledelicedespapilles h2 {
   background: -webkit-gradient(linear, left top, left bottom, from(#1b46e2), to(#83a3f0));
   background: linear-gradient(#1b46e2, #83a3f0);
-  font-family: 'Dancing Script', cursive;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Kaushan Script', cursive;
   text-align: center;
   font-size: 3rem;
 }
@@ -799,8 +803,11 @@ p {
 }
 
 .lapalettedugout h2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#5ea758), to(#d0fea2));
-  background: linear-gradient(#5ea758, #d0fea2);
+  background: -webkit-gradient(linear, left top, right top, from(#5ea758), to(#d0fea2));
+  background: linear-gradient(90deg, #5ea758, #d0fea2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Kaushan Script', cursive;
   text-align: center;
   font-size: 3rem;

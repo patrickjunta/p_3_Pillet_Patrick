@@ -1,8 +1,11 @@
 
 .ledelicedespapilles h2{
     background: linear-gradient(#1b46e2, #83a3f0);
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:'Kaushan Script', cursive;
+        text-align: center;
     font-size: 3rem;
 }
 #ledelicedespapilles span{
