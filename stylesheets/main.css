@@ -671,7 +671,7 @@ aside {
   margin: 2% 35%;
 }
 
-#parent {
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -689,6 +689,10 @@ aside {
       flex-wrap: wrap;
   width: 70%;
   margin: auto;
+}
+
+.lanoteenchantee {
+  background: #fcdfdb;
 }
 
 section {
@@ -718,6 +722,27 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+.lanoteenchantee--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.lanoteenchantee--flex span {
+  font-family: 'Kaushan Script', cursive;
+  float: right;
+}
+
 .lechicalafrancaise {
   font-family: 'Roboto Slab', serif;
 }
@@ -737,7 +762,6 @@ p {
 }
 
 .lechicalafrancaise--flex {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -776,8 +800,6 @@ p {
 }
 
 .ledelicedespapilles--flex {
-  width: 90%;
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -822,8 +844,6 @@ p {
 }
 
 .lapalettedugout--flex {
-  width: 90%;
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
