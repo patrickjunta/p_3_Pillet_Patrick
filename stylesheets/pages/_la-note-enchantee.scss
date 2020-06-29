@@ -20,9 +20,21 @@ h3 {
   text-align: center;
 }
 h4 {
+  width: 33%;
   text-align: center;
   font-family: "Kaushan Script", cursive;
+  //background animation: 
+  //linear gradient(pr avoir la barre en bas "to top, Couleur départ y en%, Couleur fin y en %, et tx de transparence sur le haut de la barre)
+  // no-repeat pour l'avoir juste quand hover
+  // left bottom pour start d'enbas à gauche 
+  //  /0 100%
+  background: linear-gradient(to top, #3f060e 0%, #3f060e 5%, transparent 20%) no-repeat left bottom/0 100%;
+  transition: background-size 1000ms;
 }
+h4:hover{
+  background-size: 100% 100%;
+}
+
 
 p {
   border: ridge 4px red;
