@@ -34,10 +34,13 @@ h4 {
 h4:hover{
   background-size: 100% 100%;
 }
-
+.menu__sub--title{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 p {
-  border: ridge 4px red;
   width: 100%;
   // text-align: justify;
   font-family: "Montserrat", sans-serif;
