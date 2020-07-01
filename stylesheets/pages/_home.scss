@@ -25,7 +25,12 @@ i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+section{
+    width: 100%;
+}
+main{
+    width: 100%;
+}
 nav#parent {
     display: flex;
     flex-direction: row;

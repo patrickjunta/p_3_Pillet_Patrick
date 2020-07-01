@@ -1,6 +1,10 @@
 .lechicalafrancaise{
     font-family: 'Roboto Slab', serif;
 }
+.lechicalafrancaise--bg{
+  background: #fff5fe;
+
+}
 .lechicalafrancaise h2{
     background: linear-gradient(90deg, #cb7d22, #c6a6fd);
     background-clip: text;
@@ -27,7 +31,17 @@
 //     clip-path: polygon(0 50%, 85% 45%, 100% 50%, 85% 55%, 0 51%);
 //     background-color: lawngreen;
 // }
-#triangle-1 {
+.chiclechicalafrancaise--flex{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#triangle--left{
+  display: flex;
+  flex-direction: column;
+}
+#triangle-1--orange {
     width: 0;
     height: 0;
     border-left: 150px solid transparent;
@@ -35,15 +49,20 @@
     border-bottom: 5px solid orange;
   }
   
-#triangle-2 {
+#triangle-2--orange {
     width: 0;
     height: 0;
     border-left: 150px solid transparent;
     border-right: 25px solid transparent;
     border-top: 5px solid orange;
   }
-  
-#triangle-3 {
+
+#triangle--right{
+    display: flex;
+    flex-direction: column;
+  }
+
+#triangle-3--orange {
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
@@ -51,22 +70,87 @@
     border-bottom: 5px solid orange;
   }
   
-  #triangle-4 {
+  #triangle-4--orange {
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
     border-right: 150px solid transparent;
     border-top: 5px solid orange;
   }
+
+#triangle-1--purple {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 5px solid #a748a7;
+  }
   
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
+#triangle-2--purple {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 5px solid #a748a7;
+  }
+
+#triangle-3--purple {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 5px solid #a748a7;
+  }
+  
+  #triangle-4--purple {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 5px solid #a748a7;
+  }
+#triangle-1--blue {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 5px solid #33338b;
+  }
+  
+#triangle-2--blue {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 5px solid #33338b;
+  }
+
+#triangle-3--blue {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 5px solid #33338b;
+  }
+  
+  #triangle-4--blue {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 5px solid #33338b;
+  }
+  
+  // .grid {
+  //   display: grid;
+  //   grid-template-columns: repeat(3, 1fr);
+  //   grid-template-rows: 1fr;
+  //   grid-column-gap: 0px;
+  //   grid-row-gap: 0px;
+  //   }
     
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
-    .div3 { grid-area: 1 / 3 / 2 / 4; }
+  //   .div1 { grid-area: 1 / 1 / 2 / 2; }
+  //   .div2 { grid-area: 1 / 2 / 2 / 3; }
+  //   .div3 { grid-area: 1 / 3 / 2 / 4; }
+
+  

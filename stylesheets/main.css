@@ -471,7 +471,7 @@ header a {
 }
 
 header a:hover {
-  color: aquamarine;
+  color: #fdcb46ff;
   text-decoration: none;
 }
 
@@ -497,10 +497,11 @@ footer a {
   font-size: 2rem;
   font-weight: 900;
   margin: 2%;
+  text-decoration: none;
 }
 
 footer a:hover {
-  color: aquamarine;
+  color: #fdcb46ff;
   text-decoration: none;
 }
 
@@ -556,6 +557,14 @@ i {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+section {
+  width: 100%;
+}
+
+main {
+  width: 100%;
 }
 
 nav#parent {
@@ -865,6 +874,10 @@ p {
   font-family: 'Roboto Slab', serif;
 }
 
+.lechicalafrancaise--bg {
+  background: #fff5fe;
+}
+
 .lechicalafrancaise h2 {
   background: -webkit-gradient(linear, left top, right top, from(#cb7d22), to(#c6a6fd));
   background: linear-gradient(90deg, #cb7d22, #c6a6fd);
@@ -898,7 +911,26 @@ p {
   float: right;
 }
 
-#triangle-1 {
+.chiclechicalafrancaise--flex {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#triangle--left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#triangle-1--orange {
   width: 0;
   height: 0;
   border-left: 150px solid transparent;
@@ -906,7 +938,7 @@ p {
   border-bottom: 5px solid orange;
 }
 
-#triangle-2 {
+#triangle-2--orange {
   width: 0;
   height: 0;
   border-left: 150px solid transparent;
@@ -914,7 +946,17 @@ p {
   border-top: 5px solid orange;
 }
 
-#triangle-3 {
+#triangle--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#triangle-3--orange {
   width: 0;
   height: 0;
   border-left: 25px solid transparent;
@@ -922,7 +964,7 @@ p {
   border-bottom: 5px solid orange;
 }
 
-#triangle-4 {
+#triangle-4--orange {
   width: 0;
   height: 0;
   border-left: 25px solid transparent;
@@ -930,39 +972,68 @@ p {
   border-top: 5px solid orange;
 }
 
-.grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+#triangle-1--purple {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 5px solid #a748a7;
 }
 
-.div1 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 1 / 2 / 2;
+#triangle-2--purple {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 5px solid #a748a7;
 }
 
-.div2 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 2 / 2 / 3;
+#triangle-3--purple {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 5px solid #a748a7;
 }
 
-.div3 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 3 / 2 / 4;
+#triangle-4--purple {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 5px solid #a748a7;
+}
+
+#triangle-1--blue {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 5px solid #33338b;
+}
+
+#triangle-2--blue {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 5px solid #33338b;
+}
+
+#triangle-3--blue {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 5px solid #33338b;
+}
+
+#triangle-4--blue {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 5px solid #33338b;
 }
 
 .ledelicedespapilles h2 {
@@ -1051,5 +1122,30 @@ p {
 
 .lapalettedugout p {
   font-family: 'Kaushan Script', cursive;
+}
+
+#mentions-legales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1.7;
+}
+
+#mentions-legales--title {
+  font-size: 26px;
+}
+
+#mentions-legales--subtitle {
+  font-size: 20px;
 }
 /*# sourceMappingURL=main.css.map */
