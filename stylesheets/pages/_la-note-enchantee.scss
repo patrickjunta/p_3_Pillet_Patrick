@@ -28,7 +28,9 @@ h4 {
   // no-repeat pour l'avoir juste quand hover
   // left bottom pour start d'enbas à gauche 
   //  /0 100%
-  background: linear-gradient(to top, #3f060e 0%, #3f060e 5%, transparent 20%) no-repeat left bottom/0 100%;
+}
+.lanoteenchantee--h4{
+  background: linear-gradient(to top, #412706 0%, #412706 5%, transparent 10%) no-repeat left bottom/0 100%;
   transition: background-size 1000ms;
 }
 h4:hover{
