@@ -29,13 +29,7 @@ h4 {
   // left bottom pour start d'enbas à gauche 
   //  /0 100%
 }
-.menu__title--h4{
-  background: linear-gradient(to top, #412706 0%, #412706 5%, transparent 10%) no-repeat left bottom/0 100%;
-  transition: background-size 1000ms;
-}
-h4:hover{
-  background-size: 100% 100%;
-}
+
 .menu__sub--title{
   display: flex;
   justify-content: space-around;
