@@ -54,7 +54,13 @@
     -ms-transform: scale(1);
     -o-transform: scale(1);
 }
-
+@mixin transition {
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;  
+}
 @mixin transform--scale11 {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -63,14 +69,10 @@
     -o-transform: scale(1.1);
 }
 
+
+
 @mixin border-radius {
   border-radius: 50px;
 }
     
-@mixin transition {
-  transition: 0.3s ease-in-out;
-  -webkit-transition: 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out;
-  -ms-transition: 0.3s ease-in-out;
-  -o-transition: 0.3s ease-in-out;  
-}
+

@@ -111,6 +111,15 @@ aside{
     margin: 2% 30%;
 }
 
+.btn__footer{
+    @include transform--scale1;
+    @include transition; 
+}
+.btn__footer:hover{
+    @include transform--scale11;
+}
+
+
 .dotLoadingAnimation {
     display: inline-block;
     position: relative;
@@ -168,4 +177,6 @@ aside{
       transform: translate(24px, 0);
     }
   }
+
+
   
