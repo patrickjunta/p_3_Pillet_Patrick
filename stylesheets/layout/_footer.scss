@@ -22,4 +22,24 @@ footer {
         color: color(secondary);
         text-decoration: none;
     }
+    a:focus{
+        color: color(secondary);
+        text-decoration: none;
+    }
+}
+
+.btn__footer{
+    @include transform--scale1;
+    @include transition;
+    text-decoration: none;
+    color: color(secondary);
+}
+.btn__footer:hover{
+    @include transform--scale11;
+    text-decoration: none;
+    color: color(secondary);
+}
+.btn__footer:focus{
+    color: color(secondary);
+    text-decoration: none;
 }
