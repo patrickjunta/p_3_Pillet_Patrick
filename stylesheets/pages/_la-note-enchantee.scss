@@ -1,12 +1,15 @@
 main{
-  @include flexbox;
   width: 70%;
   margin: auto;
 }
-.lanoteenchantee {
-  background: #fcdfdb;
 
+#container__menu--lanoteenchantee{
+  @include flexbox;
+  @include box-shadow;
+  background: #fcdfdb;
+  margin-bottom: 10vh;
 }
+
 section {
   width: 80%;
 }
