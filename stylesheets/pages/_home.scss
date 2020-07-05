@@ -42,6 +42,10 @@ nav#parent {
 .menu__title--h4{
     background: linear-gradient(to top, #412706 0%, #412706 5%, transparent 10%) no-repeat left bottom/0 100%;
     transition: background-size 1000ms;
+    -webkit-transition: background-size 1000ms;
+    -moz-transition: background-size 1000ms;
+    -ms-transition: background-size 1000ms;
+    -o-transition: background-size 1000ms;
 }
   h4:hover{
     background-size: 100% 100%;

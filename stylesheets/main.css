@@ -503,26 +503,11 @@ footer a {
 footer a:hover {
   color: #fdcb46ff;
   text-decoration: none;
-}
-
-footer a:focus {
-  color: #fdcb46ff;
-  text-decoration: none;
-}
-
-.btn__footer {
-  text-decoration: none;
-  color: #fdcb46ff;
-}
-
-.btn__footer:hover {
   animation: shake .2s ease-in-out .2s infinite alternate;
-  text-decoration: none;
-  color: #fdcb46ff;
   -webkit-animation: shake .2s ease-in-out .2s infinite alternate;
 }
 
-.btn__footer:focus {
+footer a:focus {
   color: #fdcb46ff;
   text-decoration: none;
 }
@@ -610,8 +595,11 @@ nav#parent {
 .menu__title--h4 {
   background: -webkit-gradient(linear, left bottom, left top, from(#412706), color-stop(5%, #412706), color-stop(10%, transparent)) no-repeat left bottom/0 100%;
   background: linear-gradient(to top, #412706 0%, #412706 5%, transparent 10%) no-repeat left bottom/0 100%;
-  -webkit-transition: background-size 1000ms;
   transition: background-size 1000ms;
+  -webkit-transition: background-size 1000ms;
+  -moz-transition: background-size 1000ms;
+  -ms-transition: background-size 1000ms;
+  -o-transition: background-size 1000ms;
 }
 
 h4:hover {
@@ -952,7 +940,15 @@ p {
 }
 
 #lechicalafrancaise--entree {
-  text-align: center;
+  color: #c67412;
+}
+
+#lechicalafrancaise--main {
+  color: #a56799;
+}
+
+#lechicalafrancaise--dessert {
+  color: #6e4ccc;
 }
 
 .lechicalafrancaise--flex {
@@ -998,7 +994,7 @@ p {
   height: 0;
   border-left: 150px solid transparent;
   border-right: 25px solid transparent;
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid #c67412;
 }
 
 #triangle-2--orange {
@@ -1006,7 +1002,7 @@ p {
   height: 0;
   border-left: 150px solid transparent;
   border-right: 25px solid transparent;
-  border-top: 5px solid orange;
+  border-top: 5px solid #c67412;
 }
 
 #triangle--right {
@@ -1024,7 +1020,7 @@ p {
   height: 0;
   border-left: 25px solid transparent;
   border-right: 150px solid transparent;
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid #c67412;
 }
 
 #triangle-4--orange {
@@ -1032,7 +1028,7 @@ p {
   height: 0;
   border-left: 25px solid transparent;
   border-right: 150px solid transparent;
-  border-top: 5px solid orange;
+  border-top: 5px solid #c67412;
 }
 
 #triangle-1--purple {
@@ -1040,7 +1036,7 @@ p {
   height: 0;
   border-left: 150px solid transparent;
   border-right: 25px solid transparent;
-  border-bottom: 5px solid #a748a7;
+  border-bottom: 5px solid #a56799;
 }
 
 #triangle-2--purple {
@@ -1048,7 +1044,7 @@ p {
   height: 0;
   border-left: 150px solid transparent;
   border-right: 25px solid transparent;
-  border-top: 5px solid #a748a7;
+  border-top: 5px solid #a56799;
 }
 
 #triangle-3--purple {
@@ -1056,7 +1052,7 @@ p {
   height: 0;
   border-left: 25px solid transparent;
   border-right: 150px solid transparent;
-  border-bottom: 5px solid #a748a7;
+  border-bottom: 5px solid #a56799;
 }
 
 #triangle-4--purple {
@@ -1064,7 +1060,7 @@ p {
   height: 0;
   border-left: 25px solid transparent;
   border-right: 150px solid transparent;
-  border-top: 5px solid #a748a7;
+  border-top: 5px solid #a56799;
 }
 
 #triangle-1--blue {
@@ -1072,7 +1068,7 @@ p {
   height: 0;
   border-left: 150px solid transparent;
   border-right: 25px solid transparent;
-  border-bottom: 5px solid #33338b;
+  border-bottom: 5px solid #6e4ccc;
 }
 
 #triangle-2--blue {
@@ -1080,7 +1076,7 @@ p {
   height: 0;
   border-left: 150px solid transparent;
   border-right: 25px solid transparent;
-  border-top: 5px solid #33338b;
+  border-top: 5px solid #6e4ccc;
 }
 
 #triangle-3--blue {
@@ -1088,7 +1084,7 @@ p {
   height: 0;
   border-left: 25px solid transparent;
   border-right: 150px solid transparent;
-  border-bottom: 5px solid #33338b;
+  border-bottom: 5px solid #6e4ccc;
 }
 
 #triangle-4--blue {
@@ -1096,7 +1092,7 @@ p {
   height: 0;
   border-left: 25px solid transparent;
   border-right: 150px solid transparent;
-  border-top: 5px solid #33338b;
+  border-top: 5px solid #6e4ccc;
 }
 
 .ledelicedespapilles h2 {
@@ -1105,7 +1101,7 @@ p {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
   font-size: 3rem;
 }

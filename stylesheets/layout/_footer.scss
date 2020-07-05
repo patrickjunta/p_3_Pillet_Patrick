@@ -21,6 +21,8 @@ footer {
     a:hover {
         color: color(secondary);
         text-decoration: none;
+        animation: shake .2s ease-in-out .2s infinite alternate;
+        -webkit-animation: shake .2s ease-in-out .2s infinite alternate;
     }
     a:focus{
         color: color(secondary);
@@ -28,19 +30,19 @@ footer {
     }
 }
 
-.btn__footer{
-    // @include transform--scale1;
-    // @include transition;
-    text-decoration: none;
-    color: color(secondary);
-}
-.btn__footer:hover{
-    animation: shake .2s ease-in-out .2s infinite alternate;
-    text-decoration: none;
-    color: color(secondary);
-    -webkit-animation: shake .2s ease-in-out .2s infinite alternate;
-}
-.btn__footer:focus{
-    color: color(secondary);
-    text-decoration: none;
-}
+// .btn__footer{
+//     // @include transform--scale1;
+//     // @include transition;
+//     text-decoration: none;
+//     color: color(secondary);
+// }
+// .btn__footer:hover{
+//     animation: shake .2s ease-in-out .2s infinite alternate;
+//     text-decoration: none;
+//     color: color(secondary);
+//     -webkit-animation: shake .2s ease-in-out .2s infinite alternate;
+// }
+// .btn__footer:focus{
+//     color: color(secondary);
+//     text-decoration: none;
+// }
