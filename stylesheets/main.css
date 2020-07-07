@@ -592,6 +592,10 @@ nav#parent {
       flex-wrap: wrap;
 }
 
+.menu--title h2 {
+  background: none;
+}
+
 .menu__title--h4 {
   background: -webkit-gradient(linear, left bottom, left top, from(#412706), color-stop(5%, #412706), color-stop(10%, transparent)) no-repeat left bottom/0 100%;
   background: linear-gradient(to top, #412706 0%, #412706 5%, transparent 10%) no-repeat left bottom/0 100%;
@@ -621,49 +625,9 @@ h4:hover {
   font-weight: 600;
 }
 
-#lechicalafrancaise {
-  background: #fff5fe;
-}
-
-#lechicalafrancaise h2 {
-  background: -webkit-gradient(linear, left top, right top, from(#c6a6fd), to(#cb7d22));
-  background: linear-gradient(0.25turn, #c6a6fd, #cb7d22);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Montserrat', sans-serif;
-}
-
 #lechicalafrancaise span {
-  background: -webkit-gradient(linear, left top, right top, from(#c6a6fd), to(#cb7d22));
-  background: linear-gradient(0.25turn, #c6a6fd, #cb7d22);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-family: 'Roboto Slab', serif;
   font-weight: 500;
-}
-
-#ledelicedespapilles {
-  background: #f9f9f9;
-}
-
-#ledelicedespapilles h2 {
-  background: -webkit-gradient(linear, left top, right top, from(#1b46e2), to(#83a3f0));
-  background: linear-gradient(90deg, #1b46e2, #83a3f0);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Dancing Script', cursive;
-}
-
-#ledelicedespapilles span {
-  background: -webkit-gradient(linear, left top, right top, from(#1b46e2), to(#83a3f0));
-  background: linear-gradient(90deg, #1b46e2, #83a3f0);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Kaushan Script', cursive;
 }
 
 #lapalettedugout {
@@ -928,11 +892,7 @@ p {
   font-family: 'Roboto Slab', serif;
 }
 
-.lechicalafrancaise--bg {
-  background: #fff5fe;
-}
-
-.lechicalafrancaise h2 {
+#container__menu--lechicalafrancaise h3 {
   background: -webkit-gradient(linear, left top, right top, from(#cb7d22), to(#c6a6fd));
   background: linear-gradient(90deg, #cb7d22, #c6a6fd);
   background-clip: text;
@@ -940,6 +900,28 @@ p {
   -webkit-text-fill-color: transparent;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+}
+
+#container__menu--lechicalafrancaise {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
+          box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
+  background: #fff5fe;
+  margin-bottom: 10vh;
 }
 
 #lechicalafrancaise--entree {
@@ -1098,7 +1080,34 @@ p {
   border-top: 5px solid #6e4ccc;
 }
 
-.ledelicedespapilles h2 {
+main {
+  width: 70%;
+  margin: auto;
+}
+
+#container__menu--ledelicedespapilles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
+          box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
+  margin-bottom: 10vh;
+  background: #f9f9f9;
+}
+
+#ledelicedespapilles h3 {
   background: -webkit-gradient(linear, left top, left bottom, from(#1b46e2), to(#83a3f0));
   background: linear-gradient(#1b46e2, #83a3f0);
   background-clip: text;

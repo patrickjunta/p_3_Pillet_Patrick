@@ -1,17 +1,21 @@
 .lechicalafrancaise{
     font-family: 'Roboto Slab', serif;
 }
-.lechicalafrancaise--bg{
-  background: #fff5fe;
 
-}
-.lechicalafrancaise h2{
+#container__menu--lechicalafrancaise h3{
     background: linear-gradient(90deg, #cb7d22, #c6a6fd);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+#container__menu--lechicalafrancaise{
+  @include flexbox;
+  @include box-shadow;
+  background: #fff5fe;
+  margin-bottom: 10vh;
 }
 
 #lechicalafrancaise--entree{
