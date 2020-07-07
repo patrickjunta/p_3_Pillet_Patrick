@@ -24,11 +24,6 @@ section {
   width: 33%;
   text-align: center;
   font-family: "Kaushan Script", cursive;
-  //background animation: 
-  //linear gradient(pr avoir la barre en bas "to top, Couleur départ y en%, Couleur fin y en %, et tx de transparence sur le haut de la barre)
-  // no-repeat pour l'avoir juste quand hover
-  // left bottom pour start d'enbas à gauche 
-  //  /0 100%
 }
 
 .menu__sub--title{
@@ -39,7 +34,6 @@ section {
 
 #container__menu--lanoteenchantee p {
   width: 100%;
-  // text-align: justify;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -51,7 +45,6 @@ section {
   font-family: 'Kaushan Script', cursive;
 }
 .lanoteenchantee--flex span{
-  // border: solid 5px pink;
   font-family: 'Kaushan Script', cursive;
   float: right;
 }

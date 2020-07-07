@@ -3,223 +3,255 @@
 // -----------------------------------------------------------------------------
 
 .menu--card {
-    @include box-shadow;
-    @include flexbox;
-    width: 46%;
-    margin: 1% 2%;
-    width: 30%;
-    height: 30vh;
-    @include transform--scale1;
-    @include transition;    
+  @include box-shadow;
+  @include flexbox;
+  width: 46%;
+  margin: 1% 2%;
+  width: 30%;
+  height: 30vh;
+  @include transform--scale1;
+  @include transition;
 }
-.menu--card a{
-    text-decoration: none;
-}
-.menu--card:focus{
+.menu--card a {
   text-decoration: none;
 }
-.menu--card:hover{
-    opacity: .7;
+.menu--card:focus {
+  text-decoration: none;
+}
+.menu--card:hover {
+  opacity: 0.7;
 }
 
 i {
-    background: linear-gradient(90deg, #f15861, #f78f6a);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #f15861, #f78f6a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-section{
-    width: 100%;
+section {
+  width: 100%;
 }
-main{
-    width: 100%;
+main {
+  width: 100%;
 }
 nav#parent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 h2 {
   text-align: center;
 }
-h2:hover{
+h2:hover {
   @include transform--scale11;
 }
 
-.menu--title h2{
-    background: none;
+.menu--title h2 {
+  background: none;
 }
-.menu__title--h4{
-    background: linear-gradient(to top, #412706 0%, #412706 5%, transparent 10%) no-repeat left bottom/0 100%;
-    transition: background-size 1000ms;
-    -webkit-transition: background-size 1000ms;
-    -moz-transition: background-size 1000ms;
-    -ms-transition: background-size 1000ms;
-    -o-transition: background-size 1000ms;
+.menu__title--h4 {
+  background: linear-gradient(to top, #412706 0%, #412706 5%, transparent 10%)
+    no-repeat left bottom/0 100%;
+  transition: background-size 1000ms;
+  -webkit-transition: background-size 1000ms;
+  -moz-transition: background-size 1000ms;
+  -ms-transition: background-size 1000ms;
+  -o-transition: background-size 1000ms;
 }
-  h4:hover{
-    background-size: 100% 100%;
-}
-
-#lanoteenchantee--card{
-    background: #fcdfdb;
+h4:hover {
+  background-size: 100% 100%;
 }
 
-#lanoteenchantee--card h2{
-    color: #492025;
-    font-family: 'Devonshire', cursive;
-}
-#lanoteenchantee--card span{
-    color: #492025;
-    font-family: 'Kaushan Script', cursive;
-    font-weight: 600;
+#lanoteenchantee--card {
+  background: #fcdfdb;
 }
 
+#lanoteenchantee--card h2 {
+  color: #492025;
+  font-family: "Devonshire", cursive;
+}
+#lanoteenchantee--card span {
+  color: #492025;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 600;
+}
 
-#lechicalafrancaise--card{
+#lechicalafrancaise--card {
   background: #fff5fe;
 }
-#lechicalafrancaise--card h2{
+#lechicalafrancaise--card h2 {
   background: linear-gradient(90deg, #d8852e, #905bfd);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
-#lechicalafrancaise--card a span{
+#lechicalafrancaise--card a span {
   -webkit-text-fill-color: initial;
-    color: #c77412;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 500;
+  color: #c77412;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
 }
 
-
-#ledelicedespapilles--card{
-     background: #f9f9f9;
+#ledelicedespapilles--card {
+  background: #f9f9f9;
 }
-#ledelicedespapilles--card h2{
+#ledelicedespapilles--card h2 {
   background: linear-gradient(#1b46e2, #83a3f0);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    font-size: 2rem;
-}
-
-
-
-#lapalettedugout{
-    background: #fdfffd;
-}
-#lapalettedugout--card h2{
-    background: linear-gradient(90deg, #5ea758, #d0fea2);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Kaushan Script', cursive;
-}
-
-aside{
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
   font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 10vh;
-    border-radius: 50px;
-    background: color(primary);
-    color: color(secondary);
-    margin: 2% 30%;
 }
 
+#lapalettedugout {
+  background: #fdfffd;
+}
+#lapalettedugout--card h2 {
+  background: linear-gradient(90deg, #5ea758, #d0fea2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Kaushan Script", cursive;
+}
 
-
+aside {
+  font-size: 2rem;
+  @include flexbox--aside;
+  width: 40%;
+  height: 10vh;
+  border-radius: 50px;
+  background: color(primary);
+  color: color(secondary);
+  margin: 2% 30%;
+}
 
 .dotLoadingAnimation {
-    display: inline-block;
-    position: relative;
-    width: 80px;
-    height: 80px;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
 }
 
 .dotLoadingAnimation div {
-    position: absolute;
-    top: 50%;
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    background: color(secondary);
-    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  position: absolute;
+  top: 50%;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: color(secondary);
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 
 .dotLoadingAnimation div:nth-child(1) {
-    left: 8px;
-    animation: dotAppear 0.6s infinite;
-    -webkit-animation: dotAppear 0.6s infinite;
+  left: 8px;
+  animation: dotAppear 0.6s infinite;
+  -webkit-animation: dotAppear 0.6s infinite;
 }
 .dotLoadingAnimation div:nth-child(2) {
-    left: 8px;
-    animation: dotToRight 0.6s infinite;
-    -webkit-animation: dotToRight 0.6s infinite;
+  left: 8px;
+  animation: dotToRight 0.6s infinite;
+  -webkit-animation: dotToRight 0.6s infinite;
 }
 .dotLoadingAnimation div:nth-child(3) {
-    left: 32px;
-    animation: dotToRight 0.6s infinite;
-    -webkit-animation: dotToRight 0.6s infinite;
+  left: 32px;
+  animation: dotToRight 0.6s infinite;
+  -webkit-animation: dotToRight 0.6s infinite;
 }
 .dotLoadingAnimation div:nth-child(4) {
-    left: 56px;
-    animation: dotDisappear 0.6s infinite;
-    -webkit-animation: dotDisappear 0.6s infinite;
+  left: 56px;
+  animation: dotDisappear 0.6s infinite;
+  -webkit-animation: dotDisappear 0.6s infinite;
 }
-  @keyframes dotAppear {
-    0% {
-      transform: scale(0);
-}
-    100% {
-      transform: scale(1);
-}
+@keyframes dotAppear {
+  0% {
+    transform: scale(0);
   }
-  @keyframes dotDisappear {
-    0% {
-      transform: scale(1);
-
-}
-    100% {
-      transform: scale(0);
-}
+  100% {
+    transform: scale(1);
   }
-  @keyframes dotToRight {
-    0% {
-      transform: translate(0, 0);
-    }
-    100% {
-      transform: translate(24px, 0);
-    }
+}
+@keyframes dotDisappear {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes dotToRight {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+@keyframes shake {
+  from {
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+  }
+  to {
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform-origin: center center;
+  }
+}
+
+//mediaqueries smartphone
+@media only screen and (min-width : 320px) and (max-width: 576px) {
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-
+  .menu--card{
+    width: 100%;
+    margin-top: 5vh;
+  }
   
-
-  @keyframes shake {
-      from {
-        transform: rotate(15deg);
-        -webkit-transform: rotate(15deg);
-        -moz-transform: rotate(15deg);
-        -ms-transform: rotate(15deg);
-        -o-transform: rotate(15deg);
-}
-      to {
-        transform: rotate(-15deg);
-        -webkit-transform: rotate(-15deg);
-        -moz-transform: rotate(-15deg);
-        -ms-transform: rotate(-15deg);
-        -o-transform: rotate(-15deg);
-        transform-origin: center center;
-}
+  aside{
+    margin: 5vh 0 5vh 0;
+    width: 100%;
+    @include flexbox--aside
   }
+
+  footer a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 5% 10%;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+      text-decoration: none;
+      animation: shake .2s ease-in-out .2s infinite alternate;
+      -webkit-animation: shake .2s ease-in-out .2s infinite alternate;
+  }
+
+  footer a:focus{
+      text-decoration: none;
+  }
+
+}
