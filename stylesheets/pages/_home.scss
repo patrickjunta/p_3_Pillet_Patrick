@@ -15,12 +15,15 @@
 .menu--card a{
     text-decoration: none;
 }
+.menu--card:focus{
+  text-decoration: none;
+}
 .menu--card:hover{
-    @include transform--scale11;
+    opacity: .7;
 }
 
 i {
-    background: linear-gradient(90deg, #e6250b, orange);
+    background: linear-gradient(90deg, #f15861, #f78f6a);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -38,6 +41,14 @@ nav#parent {
     align-items: center;
     flex-wrap: wrap;
 }
+
+h2 {
+  text-align: center;
+}
+h2:hover{
+  @include transform--scale11;
+}
+
 .menu--title h2{
     background: none;
 }
@@ -53,29 +64,53 @@ nav#parent {
     background-size: 100% 100%;
 }
 
-.lanoteenchantee{
+#lanoteenchantee--card{
     background: #fcdfdb;
 }
 
-#lanoteenchantee h2{
+#lanoteenchantee--card h2{
     color: #492025;
     font-family: 'Devonshire', cursive;
 }
-#lanoteenchantee span{
+#lanoteenchantee--card span{
     color: #492025;
     font-family: 'Kaushan Script', cursive;
     font-weight: 600;
 }
 
 
-#lechicalafrancaise span{
+#lechicalafrancaise--card{
+  background: #fff5fe;
+}
+#lechicalafrancaise--card h2{
+  background: linear-gradient(90deg, #d8852e, #905bfd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#lechicalafrancaise--card a span{
+  -webkit-text-fill-color: initial;
+    color: #c77412;
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
 }
 
-// #ledelicedespapilles{
-//     background: #f9f9f9;
-// }
+
+#ledelicedespapilles--card{
+     background: #f9f9f9;
+}
+#ledelicedespapilles--card h2{
+  background: linear-gradient(#1b46e2, #83a3f0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 2rem;
+}
+
 
 
 #lapalettedugout{
@@ -90,15 +125,17 @@ nav#parent {
 }
 
 aside{
+  font-size: 2rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 40%;
+    height: 10vh;
     border-radius: 50px;
     background: color(primary);
     color: color(secondary);
     margin: 2% 30%;
 }
-
 
 
 
