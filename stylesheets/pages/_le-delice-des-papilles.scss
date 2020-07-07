@@ -1,9 +1,10 @@
 main{
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   
 #container__menu--ledelicedespapilles{
+    font-family: 'Dancing Script', cursive;
     @include flexbox;
     @include box-shadow;
     margin-bottom: 10vh;
@@ -36,11 +37,12 @@ main{
     justify-content: space-around;
     font-family: 'Dancing Script', cursive;
 }
-.ledelicedespapilles span{
+.ledelicedespapilles--flex span{
     // border: solid 5px pink;
     font-family: 'Dancing Script', cursive;
     float: right;
+
 }
-.ledelicedespapilles p {
+.ledelicedespapilles--flex p {
     font-family: 'Dancing Script', cursive;
 }
