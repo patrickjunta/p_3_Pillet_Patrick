@@ -1,7 +1,9 @@
 
 
 #container__menu--lanoteenchantee{
-  @include flexbox;
+  // @include flexbox;
+  width: 80%;
+  margin: auto;
   @include box-shadow;
   background: #fcdfdb;
   margin-bottom: 10vh;
