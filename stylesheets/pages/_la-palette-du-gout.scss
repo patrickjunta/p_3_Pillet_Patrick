@@ -1,10 +1,9 @@
-main{
-    width: 80%;
-    margin: auto;
-  }
+
   
 #container__menu--lapalettedugout{
-    @include flexbox;
+    width: 80%;
+    margin: auto;
+    // @include flexbox;
     @include box-shadow;
     margin-bottom: 10vh;
 }
@@ -21,19 +20,15 @@ main{
 #lapalettedugout span{
     // font-family: 'Kaushan Script', cursive;
     font-family: 'Kaushan Script', cursive;
-
 }    
-#lapalettedugout--entree{
-    text-align: center;   
-}
 
-.lapalettedugout--flex{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-family: 'Kaushan Script', cursive;
-}
+// .lapalettedugout--flex{
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: space-around;
+//     font-family: 'Kaushan Script', cursive;
+// }
 .lapalettedugout span{
     // border: solid 5px pink;
     font-family: 'Kaushan Script', cursive;

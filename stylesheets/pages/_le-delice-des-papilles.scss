@@ -1,7 +1,7 @@
-main{
-    width: 80%;
-    margin: auto;
-  }
+// main{
+//     width: 80%;
+//     margin: auto;
+//   }
   
 #container__menu--ledelicedespapilles{
     font-family: 'Dancing Script', cursive;
@@ -30,19 +30,15 @@ main{
     text-align: center;   
 }
 
-.ledelicedespapilles--flex{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-family: 'Dancing Script', cursive;
-}
+// .ledelicedespapilles--flex{
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: space-around;
+//     font-family: 'Dancing Script', cursive;
+// }
 .ledelicedespapilles--flex span{
     // border: solid 5px pink;
     font-family: 'Dancing Script', cursive;
     float: right;
-
-}
-.ledelicedespapilles--flex p {
-    font-family: 'Dancing Script', cursive;
 }

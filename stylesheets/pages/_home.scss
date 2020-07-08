@@ -28,12 +28,19 @@ i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-section {
-  width: 100%;
-}
+
 main {
   width: 100%;
 }
+
+section {
+   @include flexbox--section;
+ }
+
+//  #lechicalafrancaise section {
+//   @include flexbox--section;
+// }
+
 nav#parent {
   display: flex;
   flex-direction: row;

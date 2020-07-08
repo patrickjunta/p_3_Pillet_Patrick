@@ -46,6 +46,15 @@
   justify-content: center;
   align-items: center;
 }
+// Mixin pour les sections
+@mixin flexbox--section{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
 
 /// Mixin pour les box-shadow
 @mixin box-shadow {

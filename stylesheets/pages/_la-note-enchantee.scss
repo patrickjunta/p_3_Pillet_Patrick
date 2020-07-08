@@ -1,7 +1,4 @@
-main{
-  width: 80%;
-  margin: auto;
-}
+
 
 #container__menu--lanoteenchantee{
   @include flexbox;
@@ -10,9 +7,6 @@ main{
   margin-bottom: 10vh;
 }
 
-section {
-  width: 80%;
-}
 
 #container__menu--lanoteenchantee h3 {
   font-family: "Devonshire", cursive;

@@ -1,7 +1,3 @@
-main{
-  width: 80%;
-  margin: auto;
-}
 
 #lechicalafrancaise{
     font-family: 'Roboto Slab', serif;
@@ -25,20 +21,26 @@ main{
 
 #lechicalafrancaise--entree{
     // text-align: center; 
-    color: #c67412;  
+    color: #c67412;
 }
 #lechicalafrancaise--main{
   color: #a56799;
+
 }
 #lechicalafrancaise--dessert{
   color: #6e4ccc;
 }
-.lechicalafrancaise--flex{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+
+#lechicalafrancaise section {
+  @include flexbox--section;
 }
+// .lechicalafrancaise--flex{
+//   width: 100%;
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
+// }
 .lechicalafrancaise--flex span{
     float: right;
     font-family: 'Roboto Slab', serif;
@@ -48,13 +50,8 @@ main{
 //     clip-path: polygon(0 50%, 85% 45%, 100% 50%, 85% 55%, 0 51%);
 //     background-color: lawngreen;
 // }
-.chiclechicalafrancaise--flex{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
 
-#triangle--left{
+.triangle--left{
   display: flex;
   flex-direction: column;
 }
@@ -74,7 +71,7 @@ main{
     border-top: 5px solid #c67412;
   }
 
-#triangle--right{
+.triangle--right{
     display: flex;
     flex-direction: column;
   }

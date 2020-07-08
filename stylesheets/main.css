@@ -565,12 +565,26 @@ i {
   -webkit-text-fill-color: transparent;
 }
 
-section {
+main {
   width: 100%;
 }
 
-main {
-  width: 100%;
+section {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 nav#parent {
@@ -899,20 +913,13 @@ aside {
     text-decoration: none;
   }
   footer a:hover {
-    color: #fdcb46ff;
     text-decoration: none;
     animation: shake .2s ease-in-out .2s infinite alternate;
     -webkit-animation: shake .2s ease-in-out .2s infinite alternate;
   }
   footer a:focus {
-    color: #fdcb46ff;
     text-decoration: none;
   }
-}
-
-main {
-  width: 80%;
-  margin: auto;
 }
 
 #container__menu--lanoteenchantee {
@@ -935,10 +942,6 @@ main {
           box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
   background: #fcdfdb;
   margin-bottom: 10vh;
-}
-
-section {
-  width: 80%;
 }
 
 #container__menu--lanoteenchantee h3 {
@@ -991,11 +994,6 @@ section {
   float: right;
 }
 
-main {
-  width: 80%;
-  margin: auto;
-}
-
 #lechicalafrancaise {
   font-family: 'Roboto Slab', serif;
 }
@@ -1044,19 +1042,22 @@ main {
   color: #6e4ccc;
 }
 
-.lechicalafrancaise--flex {
+#lechicalafrancaise section {
+  width: 80%;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 .lechicalafrancaise--flex span {
@@ -1064,16 +1065,7 @@ main {
   font-family: 'Roboto Slab', serif;
 }
 
-.chiclechicalafrancaise--flex {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-#triangle--left {
+.triangle--left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1099,7 +1091,7 @@ main {
   border-top: 5px solid #c67412;
 }
 
-#triangle--right {
+.triangle--right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1189,11 +1181,6 @@ main {
   border-top: 5px solid #6e4ccc;
 }
 
-main {
-  width: 80%;
-  margin: auto;
-}
-
 #container__menu--ledelicedespapilles {
   font-family: 'Dancing Script', cursive;
   display: -webkit-box;
@@ -1236,52 +1223,14 @@ main {
   text-align: center;
 }
 
-.ledelicedespapilles--flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  font-family: 'Dancing Script', cursive;
-}
-
 .ledelicedespapilles--flex span {
   font-family: 'Dancing Script', cursive;
   float: right;
 }
 
-.ledelicedespapilles--flex p {
-  font-family: 'Dancing Script', cursive;
-}
-
-main {
+#container__menu--lapalettedugout {
   width: 80%;
   margin: auto;
-}
-
-#container__menu--lapalettedugout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
           box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
   margin-bottom: 10vh;
@@ -1299,26 +1248,6 @@ main {
 }
 
 #lapalettedugout span {
-  font-family: 'Kaushan Script', cursive;
-}
-
-#lapalettedugout--entree {
-  text-align: center;
-}
-
-.lapalettedugout--flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   font-family: 'Kaushan Script', cursive;
 }
 
