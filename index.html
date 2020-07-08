@@ -1,12 +1,8 @@
 <!-- TODO margin prix -->
 <!-- ? mediaQuery pour smartphone faire un flex column simple ? -->
-<!-- ? mediaQuery tablet necessaire ? -->
 <!-- TODO stickyfooter -->
-<!-- TODO recheck color avec colorpicker gimp-->
 <!-- TODO recheck fonts-->
-<!-- TODO nettoyage code-->
-<!-- TODO égaliser le code lapalettedugout--card, chic et délices h2 puis div container--menu avec shadow margin-->
-<!-- TODO effet de fondu (réduire l'opacité) sans faire grossir le cadre initial -->
+<!-- TODO nettoyage code OK mais approfondir-->
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -27,14 +23,13 @@
   </head>
 
   <body>
-    <div id="container--fluid">
       <header>
         <h1><a href="index.html">Ohmyfood</a></h1>
       </header>
 
       <main>
         <nav id="parent">
-          <section class="menu--card lanoteenchantee" id="lanoteenchantee">
+          <section class="menu--card lanoteenchantee" id="lanoteenchantee--card">
             <a href="la-note-enchantee.html">
               <h2>
                 <i class="fas fa-music"></i><br />la note enchantée<br /><span
@@ -44,13 +39,13 @@
             </a>
           </section>
 
-          <section class="menu--card" id="lechicalafrancaise">
+          <section class="menu--card" id="lechicalafrancaise--card">
             <a href="le-chic-a-la-francaise.html">
               <h2>Le chic à la française<br /><span>Menu</span></h2>
             </a>
           </section>
 
-          <section class="menu--card" id="ledelicedespapilles">
+          <section class="menu--card" id="ledelicedespapilles--card">
             <a href="le-delice-des-papilles.html">
               <h2>Le délice des papilles<br /><span>Menu</span></h2>
             </a>
@@ -65,7 +60,7 @@
         <!--fin nav #parent-->
 
         <aside>
-          <h2>Prochainement</h2>
+          <h6>Prochainement</h6>
           <div class="dotLoadingAnimation">
             <div></div>
             <div></div>
@@ -80,7 +75,5 @@
         <a href="mailto:adresse@serveur.com" class="btn__footer">Contactez-nous</a>
       </footer>
 
-    </div>
-    <!--fin container-fluid div-->
   </body>
 </html>

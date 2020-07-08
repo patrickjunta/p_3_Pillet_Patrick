@@ -40,6 +40,12 @@
   align-items: center;
   flex-wrap: wrap;
 }
+/// Mixin pour les flexbox aside
+@mixin flexbox--aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /// Mixin pour les box-shadow
 @mixin box-shadow {
@@ -55,11 +61,11 @@
     -o-transform: scale(1);
 }
 @mixin transition {
-  transition: 0.3s ease-in-out;
-  -webkit-transition: 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out;
-  -ms-transition: 0.3s ease-in-out;
-  -o-transition: 0.3s ease-in-out;  
+  transition: 0.3s ease-in-out .1;
+  -webkit-transition: 0.3s ease-in-out .1;
+  -moz-transition: 0.3s ease-in-out .1;
+  -ms-transition: 0.3s ease-in-out .1;
+  -o-transition: 0.3s ease-in-out .1;
 }
 @mixin transform--scale11 {
     transform: scale(1.1);
