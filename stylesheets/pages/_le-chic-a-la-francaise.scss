@@ -10,6 +10,7 @@
     -webkit-text-fill-color: transparent;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+
 }
 
 #container__menu--lechicalafrancaise{
@@ -19,6 +20,8 @@
   @include box-shadow;
   background: #fff5fe;
   margin-bottom: 10vh;
+  overflow: hidden;
+
 }
 
 #lechicalafrancaise--entree{
@@ -36,22 +39,12 @@
 #lechicalafrancaise section {
   @include flexbox--section;
 }
-// .lechicalafrancaise--flex{
-//   width: 100%;
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     justify-content: center;
-// }
+
 .lechicalafrancaise--flex span{
     float: right;
     font-family: 'Roboto Slab', serif;
 }
 
-// .clip-path{
-//     clip-path: polygon(0 50%, 85% 45%, 100% 50%, 85% 55%, 0 51%);
-//     background-color: lawngreen;
-// }
 
 .triangle--left{
   display: flex;
