@@ -558,6 +558,15 @@ footer a:focus {
 
 .menu--card:hover {
   opacity: 0.7;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.menu--card h2 {
+  text-align: center;
 }
 
 i {
@@ -608,20 +617,9 @@ nav#parent {
       flex-wrap: wrap;
 }
 
-h2 {
-  text-align: center;
-}
-
-h2:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-}
-
 .menu--title h2 {
   background: none;
+  text-align: center;
 }
 
 .menu__title--h4 {
@@ -896,6 +894,28 @@ aside {
     width: 100%;
     margin-top: 5vh;
   }
+  .container__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  span {
+    text-align: center;
+    width: 100%;
+  }
   aside {
     font-size: 2rem;
     display: -webkit-box;
@@ -928,8 +948,8 @@ aside {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    min-height: 10vh;
-    max-height: 10vh;
+    min-height: 8vh;
+    max-height: 8vh;
     background-color: #579c87ff;
   }
   footer a {
@@ -965,6 +985,7 @@ aside {
     margin: 5%;
   }
   h2 {
+    text-align: center;
     margin: 5%;
   }
 }

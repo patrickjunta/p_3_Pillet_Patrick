@@ -20,6 +20,10 @@
 }
 .menu--card:hover {
   opacity: 0.7;
+  @include transform--scale11;
+}
+.menu--card h2 {
+  text-align: center;
 }
 
 i {
@@ -49,15 +53,9 @@ nav#parent {
   flex-wrap: wrap;
 }
 
-h2 {
-  text-align: center;
-}
-h2:hover {
-  @include transform--scale11;
-}
-
 .menu--title h2 {
   background: none;
+  text-align: center;
 }
 .menu__title--h4 {
   background: linear-gradient(to top, #412706 0%, #412706 5%, transparent 10%)
@@ -218,8 +216,6 @@ aside {
     transform-origin: center center;
   }
 }
-
-
 //mediaqueries tablette
 @media only screen and (min-width : 576px) and (max-width: 768px) {
   main {
@@ -238,13 +234,27 @@ aside {
     justify-content: center;
     align-items: center;
   }
-
+  
   .menu--card{
     width: 100%;
     margin-top: 5vh;
   }
   
-  aside {
+  .container__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  span{
+    text-align: center;
+    width: 100%;
+  }
+
+    aside {
       font-size: 2rem;
       @include flexbox--aside;
       width: 100%;
@@ -262,8 +272,8 @@ aside {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-height: 10vh;
-    max-height: 10vh;
+    min-height: 8vh;
+    max-height: 8vh;
     background-color: color(primary);
   }
 
@@ -298,6 +308,7 @@ aside {
     margin: 5%;
   }
   h2{
+    text-align: center;
     margin: 5%;
   }
 
