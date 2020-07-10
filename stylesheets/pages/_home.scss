@@ -28,7 +28,7 @@
 
 i {
   background: linear-gradient(90deg, #f15861, #f78f6a);
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -89,7 +89,7 @@ h4:hover {
 }
 #lechicalafrancaise--card h2 {
   background: linear-gradient(90deg, #d8852e, #905bfd);
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Montserrat", sans-serif;

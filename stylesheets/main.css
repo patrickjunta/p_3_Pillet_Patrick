@@ -541,11 +541,11 @@ footer a:focus {
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
-  transition: 0.3s ease-in-out .1;
-  -webkit-transition: 0.3s ease-in-out .1;
-  -moz-transition: 0.3s ease-in-out .1;
-  -ms-transition: 0.3s ease-in-out .1;
-  -o-transition: 0.3s ease-in-out .1;
+  transition: 0.3s ease-in-out .1s;
+  -webkit-transition: 0.3s ease-in-out .1s;
+  -moz-transition: 0.3s ease-in-out .1s;
+  -ms-transition: 0.3s ease-in-out .1s;
+  -o-transition: 0.3s ease-in-out .1s;
 }
 
 .menu--card a {
@@ -572,7 +572,7 @@ footer a:focus {
 i {
   background: -webkit-gradient(linear, left top, right top, from(#f15861), to(#f78f6a));
   background: linear-gradient(90deg, #f15861, #f78f6a);
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -658,7 +658,7 @@ h4:hover {
 #lechicalafrancaise--card h2 {
   background: -webkit-gradient(linear, left top, right top, from(#d8852e), to(#905bfd));
   background: linear-gradient(90deg, #d8852e, #905bfd);
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Montserrat", sans-serif;
@@ -1053,7 +1053,7 @@ aside {
 #container__menu--lechicalafrancaise h3 {
   background: -webkit-gradient(linear, left top, right top, from(#cb7d22), to(#c6a6fd));
   background: linear-gradient(90deg, #cb7d22, #c6a6fd);
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Montserrat', sans-serif;
@@ -1236,7 +1236,7 @@ aside {
 #ledelicedespapilles h3 {
   background: -webkit-gradient(linear, left top, left bottom, from(#1b46e2), to(#83a3f0));
   background: linear-gradient(#1b46e2, #83a3f0);
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -1260,7 +1260,7 @@ aside {
 #lapalettedugout h3 {
   background: -webkit-gradient(linear, left top, right top, from(#5ea758), to(#d0fea2));
   background: linear-gradient(90deg, #5ea758, #d0fea2);
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;

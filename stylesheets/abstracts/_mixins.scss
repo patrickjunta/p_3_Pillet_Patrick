@@ -70,11 +70,11 @@
     -o-transform: scale(1);
 }
 @mixin transition {
-  transition: 0.3s ease-in-out .1;
-  -webkit-transition: 0.3s ease-in-out .1;
-  -moz-transition: 0.3s ease-in-out .1;
-  -ms-transition: 0.3s ease-in-out .1;
-  -o-transition: 0.3s ease-in-out .1;
+  transition: 0.3s ease-in-out .1s;
+  -webkit-transition: 0.3s ease-in-out .1s;
+  -moz-transition: 0.3s ease-in-out .1s;
+  -ms-transition: 0.3s ease-in-out .1s;
+  -o-transition: 0.3s ease-in-out .1s;
 }
 @mixin transform--scale11 {
     transform: scale(1.1);
