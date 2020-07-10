@@ -617,7 +617,7 @@ nav#parent {
       flex-wrap: wrap;
 }
 
-.menu--title h2 {
+.menu--title, h2 {
   background: none;
   text-align: center;
 }
