@@ -623,8 +623,8 @@ nav#parent {
 }
 
 .menu__title--h4 {
-  background: -webkit-gradient(linear, left bottom, left top, from(#412706), color-stop(5%, #412706), color-stop(10%, transparent)) no-repeat left bottom/0 100%;
-  background: linear-gradient(to top, #412706 0%, #412706 5%, transparent 10%) no-repeat left bottom/0 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#579c87ff), color-stop(5%, #fdcb46ff), color-stop(10%, transparent)) no-repeat left bottom/0 100%;
+  background: linear-gradient(to top, #579c87ff 0%, #fdcb46ff 5%, transparent 10%) no-repeat left bottom/0 100%;
   transition: background-size 1000ms;
   -webkit-transition: background-size 1000ms;
   -moz-transition: background-size 1000ms;

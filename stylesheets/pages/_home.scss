@@ -58,7 +58,7 @@ nav#parent {
   text-align: center;
 }
 .menu__title--h4 {
-  background: linear-gradient(to top, #412706 0%, #412706 5%, transparent 10%)
+  background: linear-gradient(to top,color(primary) 0%, color(secondary) 5%, transparent 10%)
     no-repeat left bottom/0 100%;
   transition: background-size 1000ms;
   -webkit-transition: background-size 1000ms;
