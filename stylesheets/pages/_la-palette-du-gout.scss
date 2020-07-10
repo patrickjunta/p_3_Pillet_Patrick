@@ -6,6 +6,8 @@
     // @include flexbox;
     @include box-shadow;
     margin-bottom: 10vh;
+    line-height: 2;
+    font-family: 'Kaushan Script', cursive;
 }
 
 #lapalettedugout h3{
@@ -13,27 +15,11 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Kaushan Script', cursive;
     text-align: center;
     font-size: 3rem;
 }
-#lapalettedugout span{
-    // font-family: 'Kaushan Script', cursive;
-    font-family: 'Kaushan Script', cursive;
+#container__menu--lapalettedugout span{
+    float: right;
 }    
 
-// .lapalettedugout--flex{
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     justify-content: space-around;
-//     font-family: 'Kaushan Script', cursive;
-// }
-.lapalettedugout span{
-    // border: solid 5px pink;
-    font-family: 'Kaushan Script', cursive;
-    float: right;
-}
-.lapalettedugout p {
-    font-family: 'Kaushan Script', cursive;
-}
+

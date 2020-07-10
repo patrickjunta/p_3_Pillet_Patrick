@@ -1,7 +1,3 @@
-// main{
-//     width: 80%;
-//     margin: auto;
-//   }
 
 #container__menu--ledelicedespapilles{
     width: 80%;
@@ -11,6 +7,7 @@
     @include box-shadow;
     margin-bottom: 10vh;
     background: #f9f9f9;
+    line-height: 2;
 }
 
 
@@ -19,28 +16,10 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 3rem;
 }
-#ledelicedespapilles span{
-    // font-family: 'Kaushan Script', cursive;
-    font-family: 'Dancing Script', cursive;
 
-}
-#ledelicedespapilles--entree{
-    text-align: center;
-}
-
-// .ledelicedespapilles--flex{
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     justify-content: space-around;
-//     font-family: 'Dancing Script', cursive;
-// }
 .ledelicedespapilles--flex span{
-    // border: solid 5px pink;
-    font-family: 'Dancing Script', cursive;
     float: right;
 }

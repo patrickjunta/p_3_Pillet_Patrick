@@ -7,10 +7,11 @@
   @include box-shadow;
   background: #fcdfdb;
   margin-bottom: 10vh;
+  font-family: "Devonshire", cursive;
+  line-height: 2;
 }
 
 #container__menu--lanoteenchantee h3 {
-  font-family: "Devonshire", cursive;
   font-size: 44px;
   letter-spacing: 2px;
   text-align: center;
@@ -18,7 +19,6 @@
 #container__menu--lanoteenchantee h4 {
   width: 33%;
   text-align: center;
-  font-family: "Kaushan Script", cursive;
 }
 
 .menu__sub--title{
@@ -29,7 +29,7 @@
 
 #container__menu--lanoteenchantee p {
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  // font-family: "Montserrat", sans-serif;
 }
 
 .lanoteenchantee--flex{
@@ -37,9 +37,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Kaushan Script', cursive;
 }
 .lanoteenchantee--flex span{
-  font-family: 'Kaushan Script', cursive;
   float: right;
 }

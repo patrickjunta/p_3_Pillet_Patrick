@@ -132,11 +132,11 @@ aside {
   font-size: 2rem;
   @include flexbox--aside;
   width: 40%;
-  height: 10vh;
+  max-height: 8vh;
   border-radius: 50px;
   background: color(primary);
   color: color(secondary);
-  margin: 2% 30%;
+  margin-left: 30%;
 }
 
 .dotLoadingAnimation {
@@ -219,6 +219,16 @@ aside {
   }
 }
 
+
+//mediaqueries tablette
+@media only screen and (min-width : 576px) and (max-width: 768px) {
+  main {
+    margin-top: 5%;
+  }
+  aside{
+    margin-top: 5%;
+  }
+}
 //mediaqueries smartphone
 @media only screen and (min-width : 320px) and (max-width: 576px) {
 
@@ -234,10 +244,27 @@ aside {
     margin-top: 5vh;
   }
   
-  aside{
-    margin: 5vh 0 5vh 0;
+  aside {
+      font-size: 2rem;
+      @include flexbox--aside;
+      width: 100%;
+      max-height: 10vh;
+      border-radius: 50px;
+      background: color(primary);
+      color: color(secondary);
+      margin: 10% 0 30% 0;
+    }
+  footer{
+    position: fixed;
+    bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    @include flexbox--aside
+    min-height: 10vh;
+    max-height: 10vh;
+    background-color: color(primary);
   }
 
   footer a{

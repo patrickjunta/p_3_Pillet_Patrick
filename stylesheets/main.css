@@ -460,13 +460,13 @@ header {
       flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
-  min-height: 10vh;
+  max-height: 12vh;
   background-color: #579c87ff;
 }
 
 header a {
   color: #fdcb46ff;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 900;
 }
 
@@ -476,6 +476,8 @@ header a:hover {
 }
 
 footer {
+  position: fixed;
+  bottom: 0px;
   font-family: Arial, Helvetica, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -487,14 +489,15 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  min-height: 10vh;
+  min-height: 6vh;
+  max-height: 8vh;
   background-color: #579c87ff;
 }
 
 footer a {
   color: #fdcb46ff;
-  font-size: 2rem;
-  font-weight: 900;
+  font-size: 1.4rem;
+  font-weight: 600;
   margin: 2%;
   text-decoration: none;
 }
@@ -711,11 +714,11 @@ aside {
       -ms-flex-align: center;
           align-items: center;
   width: 40%;
-  height: 10vh;
+  max-height: 8vh;
   border-radius: 50px;
   background: #579c87ff;
   color: #fdcb46ff;
-  margin: 2% 30%;
+  margin-left: 30%;
 }
 
 .dotLoadingAnimation {
@@ -864,6 +867,15 @@ aside {
   }
 }
 
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  main {
+    margin-top: 5%;
+  }
+  aside {
+    margin-top: 5%;
+  }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 576px) {
   nav {
     display: -webkit-box;
@@ -885,8 +897,7 @@ aside {
     margin-top: 5vh;
   }
   aside {
-    margin: 5vh 0 5vh 0;
-    width: 100%;
+    font-size: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -896,6 +907,30 @@ aside {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 100%;
+    max-height: 10vh;
+    border-radius: 50px;
+    background: #579c87ff;
+    color: #fdcb46ff;
+    margin: 10% 0 30% 0;
+  }
+  footer {
+    position: fixed;
+    bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 10vh;
+    background-color: #579c87ff;
   }
   footer a {
     font-size: 1.5rem;
@@ -941,10 +976,11 @@ aside {
           box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
   background: #fcdfdb;
   margin-bottom: 10vh;
+  font-family: "Devonshire", cursive;
+  line-height: 2;
 }
 
 #container__menu--lanoteenchantee h3 {
-  font-family: "Devonshire", cursive;
   font-size: 44px;
   letter-spacing: 2px;
   text-align: center;
@@ -953,7 +989,6 @@ aside {
 #container__menu--lanoteenchantee h4 {
   width: 33%;
   text-align: center;
-  font-family: "Kaushan Script", cursive;
 }
 
 .menu__sub--title {
@@ -969,7 +1004,6 @@ aside {
 
 #container__menu--lanoteenchantee p {
   width: 100%;
-  font-family: "Montserrat", sans-serif;
 }
 
 .lanoteenchantee--flex {
@@ -985,11 +1019,9 @@ aside {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-family: 'Kaushan Script', cursive;
 }
 
 .lanoteenchantee--flex span {
-  font-family: 'Kaushan Script', cursive;
   float: right;
 }
 
@@ -1008,6 +1040,7 @@ aside {
 }
 
 #container__menu--lechicalafrancaise {
+  font-family: 'Roboto Slab', serif;
   width: 80%;
   margin: auto;
   -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
@@ -1015,6 +1048,7 @@ aside {
   background: #fff5fe;
   margin-bottom: 10vh;
   overflow: hidden;
+  line-height: 2;
 }
 
 #lechicalafrancaise--entree {
@@ -1049,7 +1083,6 @@ aside {
 
 .lechicalafrancaise--flex span {
   float: right;
-  font-family: 'Roboto Slab', serif;
 }
 
 .triangle--left {
@@ -1176,6 +1209,7 @@ aside {
           box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
   margin-bottom: 10vh;
   background: #f9f9f9;
+  line-height: 2;
 }
 
 #ledelicedespapilles h3 {
@@ -1184,21 +1218,11 @@ aside {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Dancing Script', cursive;
   text-align: center;
   font-size: 3rem;
 }
 
-#ledelicedespapilles span {
-  font-family: 'Dancing Script', cursive;
-}
-
-#ledelicedespapilles--entree {
-  text-align: center;
-}
-
 .ledelicedespapilles--flex span {
-  font-family: 'Dancing Script', cursive;
   float: right;
 }
 
@@ -1208,6 +1232,8 @@ aside {
   -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
           box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
   margin-bottom: 10vh;
+  line-height: 2;
+  font-family: 'Kaushan Script', cursive;
 }
 
 #lapalettedugout h3 {
@@ -1216,22 +1242,12 @@ aside {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Kaushan Script', cursive;
   text-align: center;
   font-size: 3rem;
 }
 
-#lapalettedugout span {
-  font-family: 'Kaushan Script', cursive;
-}
-
-.lapalettedugout span {
-  font-family: 'Kaushan Script', cursive;
+#container__menu--lapalettedugout span {
   float: right;
-}
-
-.lapalettedugout p {
-  font-family: 'Kaushan Script', cursive;
 }
 
 #mentions-legales {

@@ -14,6 +14,7 @@
 }
 
 #container__menu--lechicalafrancaise{
+  font-family: 'Roboto Slab', serif;
   width: 80%;
   margin: auto;
   // @include flexbox;
@@ -21,7 +22,7 @@
   background: #fff5fe;
   margin-bottom: 10vh;
   overflow: hidden;
-
+  line-height: 2;
 }
 
 #lechicalafrancaise--entree{
@@ -42,7 +43,6 @@
 
 .lechicalafrancaise--flex span{
     float: right;
-    font-family: 'Roboto Slab', serif;
 }
 
 
