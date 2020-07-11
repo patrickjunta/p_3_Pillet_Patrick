@@ -489,7 +489,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  min-height: 6vh;
+  min-height: 8vh;
   max-height: 8vh;
   background-color: #579c87ff;
 }
@@ -620,6 +620,19 @@ nav#parent {
 .menu--title, h2 {
   background: none;
   text-align: center;
+}
+
+.menu--title, a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu--title a:hover, a a:hover {
+  text-decoration: none;
+}
+
+.menu--title a:focus, a a:focus {
+  text-decoration: none;
 }
 
 .menu__title--h4 {
@@ -948,8 +961,8 @@ aside {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    min-height: 8vh;
-    max-height: 8vh;
+    min-height: 9vh;
+    max-height: 9vh;
     background-color: #579c87ff;
   }
   footer a {
@@ -1289,8 +1302,17 @@ aside {
   margin-bottom: 100px;
 }
 
-#mentions-legales--title {
+#mentions-legales--title, h1 {
   font-size: 26px;
+  text-decoration: none;
+}
+
+#mentions-legales--title :focus, h1 :focus {
+  text-decoration: none;
+}
+
+#mentions-legales--title :hover, h1 :hover {
+  text-decoration: none;
 }
 
 #mentions-legales--subtitle {

@@ -57,6 +57,18 @@ nav#parent {
   background: none;
   text-align: center;
 }
+.menu--title, a {
+  text-decoration: none;
+  color: black;
+  a:hover {
+    text-decoration: none;
+  }
+  a:focus {
+    text-decoration: none;
+  }
+}
+
+
 .menu__title--h4 {
   background: linear-gradient(to top,black 0%, black 5%, transparent 10%)
     no-repeat left bottom/0 100%;
@@ -275,8 +287,8 @@ aside {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-height: 8vh;
-    max-height: 8vh;
+    min-height: 9vh;
+    max-height: 9vh;
     background-color: color(primary);
   }
 
