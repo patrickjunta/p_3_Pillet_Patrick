@@ -5,10 +5,11 @@
 .menu--card {
   @include box-shadow;
   @include flexbox;
-  width: 46%;
   margin: 1% 2%;
-  width: 30%;
+  padding: 0;
+  width: 33%;
   height: 30vh;
+  font-size: 1.1rem;
   @include transform--scale1;
   @include transition;
 }
@@ -108,6 +109,7 @@ h4:hover {
   -webkit-text-fill-color: transparent;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  
 }
 #lechicalafrancaise--card a span {
   -webkit-text-fill-color: initial;
@@ -126,7 +128,7 @@ h4:hover {
   -webkit-text-fill-color: transparent;
   font-family: "Dancing Script", cursive;
   text-align: center;
-  font-size: 2rem;
+  padding-left: 7px;
 }
 
 #lapalettedugout {
@@ -138,6 +140,7 @@ h4:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Kaushan Script", cursive;
+  padding-right: 7px;
 }
 
 aside {
@@ -261,6 +264,7 @@ aside {
  }
   
   .menu--card{
+    font-size: 1.6rem;
     width: 70%;
     height: 60%;
     margin-top: 5vh;

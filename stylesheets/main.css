@@ -532,10 +532,11 @@ footer a:focus {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 46%;
   margin: 1% 2%;
-  width: 30%;
+  padding: 0;
+  width: 33%;
   height: 30vh;
+  font-size: 1.1rem;
   transform: scale(1);
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -699,7 +700,7 @@ h4:hover {
   -webkit-text-fill-color: transparent;
   font-family: "Dancing Script", cursive;
   text-align: center;
-  font-size: 2rem;
+  padding-left: 7px;
 }
 
 #lapalettedugout {
@@ -713,6 +714,7 @@ h4:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Kaushan Script", cursive;
+  padding-right: 7px;
 }
 
 aside {
@@ -924,6 +926,7 @@ aside {
             align-items: center;
   }
   .menu--card {
+    font-size: 1.6rem;
     width: 70%;
     height: 60%;
     margin-top: 5vh;
