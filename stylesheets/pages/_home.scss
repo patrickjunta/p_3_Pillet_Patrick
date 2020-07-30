@@ -81,7 +81,19 @@ nav#parent {
   -ms-transition: background-size 1000ms;
   -o-transition: background-size 1000ms;
 }
+.menu__title--h6 {
+  background: linear-gradient(to top,black 0%, black 5%, transparent 10%)
+    no-repeat left bottom/0 100%;
+  transition: background-size 1000ms;
+  -webkit-transition: background-size 1000ms;
+  -moz-transition: background-size 1000ms;
+  -ms-transition: background-size 1000ms;
+  -o-transition: background-size 1000ms;
+}
 h4:hover {
+  background-size: 100% 100%;
+}
+h6:hover {
   background-size: 100% 100%;
 }
 
@@ -330,6 +342,9 @@ aside {
 
   img{
     width: 35%;
+  }
+  h6{
+    margin:5%;
   }
   h4{
     margin: 5%;
