@@ -648,22 +648,16 @@ nav#parent {
   -o-transition: background-size 1000ms;
 }
 
-.menu__title--h6 {
-  background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(5%, black), color-stop(10%, transparent)) no-repeat left bottom/0 100%;
-  background: linear-gradient(to top, black 0%, black 5%, transparent 10%) no-repeat left bottom/0 100%;
-  transition: background-size 1000ms;
-  -webkit-transition: background-size 1000ms;
-  -moz-transition: background-size 1000ms;
-  -ms-transition: background-size 1000ms;
-  -o-transition: background-size 1000ms;
-}
-
 h4:hover {
   background-size: 100% 100%;
 }
 
-h6:hover {
-  background-size: 100% 100%;
+.container__card {
+  -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
+          box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10vh;
 }
 
 #lanoteenchantee--card {
@@ -918,6 +912,27 @@ aside {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
+  section {
+    width: 100%;
+    margin: 0;
+    padding: 35px;
+    min-height: 25vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    line-height: 1.8;
+  }
+  .container__card {
+    -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
+            box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
+    width: 100%;
+    margin-bottom: 10vh;
+  }
   aside {
     margin-top: 5%;
   }
@@ -962,6 +977,7 @@ aside {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     text-align: center;
+    width: 100%;
   }
   span {
     text-align: center;
@@ -992,6 +1008,10 @@ aside {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -1000,11 +1020,11 @@ aside {
             align-items: center;
     width: 100%;
     min-height: 9vh;
-    max-height: 9vh;
+    max-height: 20vh;
     background-color: #579c87ff;
   }
   footer a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1015,7 +1035,6 @@ aside {
         -ms-flex-align: center;
             align-items: center;
     width: 80%;
-    margin: 5% 10%;
     text-decoration: none;
   }
   footer a:hover {
@@ -1045,14 +1064,8 @@ aside {
 }
 
 #container__menu--lanoteenchantee {
-  width: 80%;
-  margin: auto;
-  -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
-          box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
   background: #fcdfdb;
-  margin-bottom: 10vh;
   font-family: "Devonshire", cursive;
-  line-height: 2;
 }
 
 #container__menu--lanoteenchantee h3 {
@@ -1116,14 +1129,11 @@ aside {
 
 #container__menu--lechicalafrancaise {
   font-family: 'Roboto Slab', serif;
-  width: 80%;
-  margin: auto;
   -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
           box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
   background: #fff5fe;
   margin-bottom: 10vh;
   overflow: hidden;
-  line-height: 2;
 }
 
 #lechicalafrancaise--entree {
@@ -1304,14 +1314,8 @@ aside {
 }
 
 #container__menu--ledelicedespapilles {
-  width: 80%;
-  margin: auto;
   font-family: 'Dancing Script', cursive;
-  -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
-          box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
-  margin-bottom: 10vh;
   background: #f9f9f9;
-  line-height: 2;
 }
 
 #ledelicedespapilles h3 {
@@ -1329,12 +1333,6 @@ aside {
 }
 
 #container__menu--lapalettedugout {
-  width: 80%;
-  margin: auto;
-  -webkit-box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
-          box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
-  margin-bottom: 10vh;
-  line-height: 2;
   font-family: 'Kaushan Script', cursive;
 }
 

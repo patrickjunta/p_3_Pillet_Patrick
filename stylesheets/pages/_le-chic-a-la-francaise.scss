@@ -15,14 +15,11 @@
 
 #container__menu--lechicalafrancaise{
   font-family: 'Roboto Slab', serif;
-  width: 80%;
-  margin: auto;
   // @include flexbox;
   @include box-shadow;
   background: #fff5fe;
   margin-bottom: 10vh;
   overflow: hidden;
-  line-height: 2;
 }
 
 #lechicalafrancaise--entree{

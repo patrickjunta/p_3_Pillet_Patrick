@@ -81,21 +81,17 @@ nav#parent {
   -ms-transition: background-size 1000ms;
   -o-transition: background-size 1000ms;
 }
-.menu__title--h6 {
-  background: linear-gradient(to top,black 0%, black 5%, transparent 10%)
-    no-repeat left bottom/0 100%;
-  transition: background-size 1000ms;
-  -webkit-transition: background-size 1000ms;
-  -moz-transition: background-size 1000ms;
-  -ms-transition: background-size 1000ms;
-  -o-transition: background-size 1000ms;
-}
+
 h4:hover {
   background-size: 100% 100%;
 }
-h6:hover {
-  background-size: 100% 100%;
+.container__card{
+  @include box-shadow;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10vh;
 }
+
 
 #lanoteenchantee--card {
   background: #fcdfdb;
@@ -260,6 +256,25 @@ aside {
     align-items: center;
     flex-wrap: nowrap;
   }
+
+  section {
+    width: 100%;
+    margin: 0;
+    padding: 35px;
+    min-height: 25vh;
+    // @include flexbox--section;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    line-height: 1.8;
+   }
+
+   .container__card{
+    @include box-shadow;
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+
   aside{
     margin-top: 5%;
   }
@@ -289,6 +304,7 @@ aside {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    width: 100%;
   }
 
   span{
@@ -311,22 +327,22 @@ aside {
     bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     min-height: 9vh;
-    max-height: 9vh;
+    max-height: 20vh;
     background-color: color(primary);
   }
 
   footer a{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    margin: 5% 10%;
     text-decoration: none;
   }
 
