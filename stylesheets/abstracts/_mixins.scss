@@ -48,13 +48,21 @@
 }
 // Mixin pour les sections
 @mixin flexbox--section{
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  padding: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: stretch;
 }
+// @mixin flexbox--section--tablette {
+//   width: 100%;
+//   margin: auto;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   align-items: stretch;
+// }
 
 /// Mixin pour les box-shadow
 @mixin box-shadow {

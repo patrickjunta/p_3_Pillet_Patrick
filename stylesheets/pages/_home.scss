@@ -247,17 +247,17 @@ aside {
 @media only screen and (min-width : 576px) and (max-width: 768px) {
   main {
     margin-top: 5%;
+    height: 1300px;
   }
   nav#parent {
-    min-height: 50vh;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
   }
 
-  section {
+  
+  section { 
     width: 100%;
     margin: 0;
     padding: 35px;
@@ -268,7 +268,56 @@ aside {
     flex-wrap: nowrap;
     line-height: 1.8;
    }
+   
+  #lechicalafrancaise--entree{
+    // text-align: center; 
+    color: #c67412;
+    @include flexbox--section;
+    font-size: 1.3rem;
+    height: 25vh;    // @include flexbox--section;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    line-height: 2;    // @include flexbox--section;
+}
+#lechicalafrancaise--main{
+  color: #a56799;
+  @include flexbox--section;
+  font-size: 1.3rem;
+  height: 25vh;  // @include flexbox--section;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  line-height: 2;  // @include flexbox--section;
+}
+#lechicalafrancaise--dessert{
+  color: #6e4ccc;
+  @include flexbox--section;
+  font-size: 1.3rem;
+  height: 25vh;  // @include flexbox--section;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  line-height: 2;
+  margin-bottom: 20px;
+  // @include flexbox--section;
+}
+#lechicalafrancaise {
+  height: 1100px;
+}
 
+   //pour la home page
+  .menu--card { 
+    @include box-shadow;
+    @include flexbox;
+    margin: 1% 2%;
+    padding: 0;
+    width: 65%;
+    height: 20%;
+    font-size: 1.1rem;
+    @include transform--scale1;
+    @include transition;
+  }
    .container__card{
     @include box-shadow;
     width: 100%;
