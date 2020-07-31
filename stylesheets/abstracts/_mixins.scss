@@ -73,7 +73,7 @@
   box-shadow: 0 2px 6px 0 rgba(133, 131, 133, 0.75);
 }
 
-/// Mixin pour les transform
+/// Mixin pour les transform menu--card
 @mixin transform--scale1 {
     transform: scale(1);
     -webkit-transform: scale(1);
@@ -96,6 +96,7 @@
     -o-transform: scale(1.07);
 }
 
+//Mixin pour border radius aside bar
 @mixin border-radius {
   border-radius: 50px;
 }

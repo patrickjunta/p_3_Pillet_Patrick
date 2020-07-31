@@ -2,6 +2,18 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
+main {
+  width: 100%;
+}
+nav#parent {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+//Card restaurant sur la landing page
 .menu--card {
   @include box-shadow;
   @include flexbox;
@@ -25,75 +37,6 @@
 .menu--card h2:hover {
   text-align: center;
   @include transform--scale11;
-}
-
-i {
-  background: linear-gradient(90deg, #f15861, #f78f6a);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-main {
-  width: 100%;
-}
-
-section {
-  @include flexbox--section;
-}
-
-section p {
-  font-size: 1.4rem;
-  line-height: 2.1;
-}
-
-
-
-
-
-nav#parent {
-  min-height: 65vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
-.menu--title, h2 {
-  background: none;
-  text-align: center;
-}
-.menu--title, a {
-  text-decoration: none;
-  color: black;
-  a:hover {
-    text-decoration: none;
-  }
-  a:focus {
-    text-decoration: none;
-  }
-}
-
-
-.menu__title--h4 {
-  background: linear-gradient(to top,black 0%, black 5%, transparent 10%)
-    no-repeat left bottom/0 100%;
-  transition: background-size 1000ms;
-  -webkit-transition: background-size 1000ms;
-  -moz-transition: background-size 1000ms;
-  -ms-transition: background-size 1000ms;
-  -o-transition: background-size 1000ms;
-}
-
-h4:hover {
-  background-size: 100% 100%;
-}
-.container__card{
-  @include box-shadow;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 10vh;
 }
 
 
@@ -166,84 +109,72 @@ aside {
   margin-left: 30%;
 }
 
-.dotLoadingAnimation {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
-}
-
-.dotLoadingAnimation div {
-  position: absolute;
-  top: 50%;
-  width: 13px;
-  height: 13px;
+// Animation jumpingDots dans l'aside inférieur 
+.loading span {
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  background-color: color(secondary);
   border-radius: 50%;
-  background: color(secondary);
-  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  display: inline-block;
+  animation-name: jumpingDots;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.loading span:nth-child(2){
+  animation-delay: 0.4s;
+}
+.loading span:nth-child(3){
+  animation-delay: 0.8s;
 }
 
-.dotLoadingAnimation div:nth-child(1) {
-  left: 8px;
-  animation: dotAppear 0.6s infinite;
-  -webkit-animation: dotAppear 0.6s infinite;
+
+// Pages intérieur
+// Container des menus des pages intérieurs
+.container__card{
+  @include box-shadow;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10vh;
 }
-.dotLoadingAnimation div:nth-child(2) {
-  left: 8px;
-  animation: dotToRight 0.6s infinite;
-  -webkit-animation: dotToRight 0.6s infinite;
+
+section {
+  @include flexbox--section;
 }
-.dotLoadingAnimation div:nth-child(3) {
-  left: 32px;
-  animation: dotToRight 0.6s infinite;
-  -webkit-animation: dotToRight 0.6s infinite;
+
+section p {
+  font-size: 1.4rem;
+  line-height: 2.1;
 }
-.dotLoadingAnimation div:nth-child(4) {
-  left: 56px;
-  animation: dotDisappear 0.6s infinite;
-  -webkit-animation: dotDisappear 0.6s infinite;
+
+.menu--title, h2 {
+  background: none;
+  text-align: center;
 }
-@keyframes dotAppear {
-  0% {
-    transform: scale(0);
+.menu--title, a {
+  text-decoration: none;
+  color: black;
+  a:hover {
+    text-decoration: none;
   }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes dotDisappear {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
-@keyframes dotToRight {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(24px, 0);
+  a:focus {
+    text-decoration: none;
   }
 }
 
-@keyframes shake {
-  from {
-    transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
-  }
-  to {
-    transform: rotate(-15deg);
-    -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    -ms-transform: rotate(-15deg);
-    -o-transform: rotate(-15deg);
-    transform-origin: center center;
-  }
+// Animation hover des titres menus entrée, plat principal, dessert
+.menu__title--h4 {
+  background: linear-gradient(to top,black 0%, black 5%, transparent 10%)
+    no-repeat left bottom/0 100%;
+  transition: background-size 1000ms;
+  -webkit-transition: background-size 1000ms;
+  -moz-transition: background-size 1000ms;
+  -ms-transition: background-size 1000ms;
+  -o-transition: background-size 1000ms;
+}
+h4:hover {
+  background-size: 100% 100%;
 }
 
 
@@ -260,13 +191,20 @@ aside {
     align-items: center;
     flex-wrap: nowrap;
   }
-
+//pour la landing page
+.menu--card { 
+  @include box-shadow;
+  @include flexbox;
+  margin: 1% 2%;
+  padding: 0;
+  width: 65%;
+  height: 20%;
+  font-size: 1.5rem;
+  @include transform--scale1;
+  @include transition;
+}
   
-  section { 
-    @include flexbox--section--tablette;
-   }
-   
-  #lechicalafrancaise--entree{
+#lechicalafrancaise--entree{
     // text-align: center; 
     color: #c67412;
     font-size: 1.3rem;
@@ -288,32 +226,27 @@ aside {
   height: 1100px;
 }
 
-   //pour la home page
-  .menu--card { 
-    @include box-shadow;
-    @include flexbox;
-    margin: 1% 2%;
-    padding: 0;
-    width: 65%;
-    height: 20%;
-    font-size: 1.5rem;
-    @include transform--scale1;
-    @include transition;
-  }
-   .container__card{
+aside{
+  margin-top: 5%;
+}
+
+// Pages intérieur
+// Container des menus des pages intérieurs
+.container__card{
     @include box-shadow;
     width: 100%;
     margin-bottom: 10vh;
-  }
-
-  aside{
-    margin-top: 5%;
-  }
 }
+section { 
+  @include flexbox--section--tablette;
+ }
+
+} //fin mediaqueries tablette
+
 
 //mediaqueries smartphone
 @media only screen and (min-width : 320px) and (max-width: 576px) {
-
+// Mise en forme landing page
  nav#parent {
    display: flex;
    flex-direction: column;
@@ -326,17 +259,6 @@ aside {
     width: 70%;
     height: 60%;
     margin-top: 5vh;
-  }
-  
-  .container__card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 120px;
   }
 
   span{
@@ -387,7 +309,19 @@ aside {
   footer a:focus{
       text-decoration: none;
   }
-
+  
+// Pages intérieur
+// Container des menus des pages intérieurs
+.container__card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 120px;
+}
   img{
     width: 40%;
   }
@@ -404,7 +338,7 @@ aside {
     text-align: center;
     margin: 5%;
   }
-  #lechicalafrancaise--entree{
+#lechicalafrancaise--entree{
     // text-align: center; 
     color: #c67412;
     font-size: 1.4rem;
@@ -427,4 +361,4 @@ aside {
 #container__menu--ledelicedespapilles h4{
   font-size: 1.6rem;
 }
-}
+} //fin mediaqueries mobile
