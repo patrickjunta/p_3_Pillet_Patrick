@@ -583,9 +583,9 @@ main {
 }
 
 section {
-  min-height: 50vh;
   width: 100%;
-  padding: 25px;
+  padding: 0px 40px;
+  min-height: 45vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -593,12 +593,16 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+}
+
+section p {
+  font-size: 1.4rem;
+  line-height: 2.1;
 }
 
 nav#parent {
@@ -911,9 +915,11 @@ aside {
   }
   section {
     width: 100%;
+    height: 100%;
     margin: 0;
-    padding: 35px;
-    min-height: 25vh;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 15vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -922,12 +928,13 @@ aside {
             justify-content: center;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    line-height: 1.8;
+    line-height: 2;
   }
   #lechicalafrancaise--entree {
     color: #c67412;
     width: 100%;
-    padding: 25px;
+    padding: 0px 40px;
+    min-height: 45vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -935,16 +942,17 @@ aside {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
     font-size: 1.3rem;
     height: 25vh;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     line-height: 2;
@@ -952,7 +960,8 @@ aside {
   #lechicalafrancaise--main {
     color: #a56799;
     width: 100%;
-    padding: 25px;
+    padding: 0px 40px;
+    min-height: 45vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -960,16 +969,17 @@ aside {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
     font-size: 1.3rem;
     height: 25vh;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     line-height: 2;
@@ -977,7 +987,8 @@ aside {
   #lechicalafrancaise--dessert {
     color: #6e4ccc;
     width: 100%;
-    padding: 25px;
+    padding: 0px 40px;
+    min-height: 45vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -985,16 +996,17 @@ aside {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
     font-size: 1.3rem;
     height: 25vh;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     line-height: 2;
@@ -1184,11 +1196,6 @@ aside {
   text-align: center;
 }
 
-#container__menu--lanoteenchantee h4 {
-  width: 33%;
-  text-align: center;
-}
-
 .menu__sub--title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1246,61 +1253,21 @@ aside {
   overflow: hidden;
 }
 
+.lechicalafrancaise--flex {
+  line-height: 2;
+  padding: 0px 40px;
+}
+
 #lechicalafrancaise--entree {
   color: #c67412;
-  width: 100%;
-  padding: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
 }
 
 #lechicalafrancaise--main {
   color: #a56799;
-  width: 100%;
-  padding: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
 }
 
 #lechicalafrancaise--dessert {
   color: #6e4ccc;
-  width: 100%;
-  padding: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
 }
 
 .lechicalafrancaise--flex span {

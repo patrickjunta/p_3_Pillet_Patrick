@@ -39,13 +39,17 @@ main {
 }
 
 section {
-  min-height: 50vh;
   @include flexbox--section;
- }
+}
 
-//  #lechicalafrancaise section {
-//   @include flexbox--section;
-// }
+section p {
+  font-size: 1.4rem;
+  line-height: 2.1;
+}
+
+
+
+
 
 nav#parent {
   min-height: 65vh;
@@ -259,14 +263,16 @@ aside {
   
   section { 
     width: 100%;
+    height: 100%;
     margin: 0;
-    padding: 35px;
-    min-height: 25vh;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 15vh;
     // @include flexbox--section;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    line-height: 1.8;
+    line-height: 2;
    }
    
   #lechicalafrancaise--entree{

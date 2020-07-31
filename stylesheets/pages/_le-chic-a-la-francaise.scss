@@ -21,19 +21,19 @@
   margin-bottom: 10vh;
   overflow: hidden;
 }
-
+.lechicalafrancaise--flex{
+  line-height: 2;
+  padding: 0px 40px;
+}
 #lechicalafrancaise--entree{
     // text-align: center; 
     color: #c67412;
-    @include flexbox--section;
 }
 #lechicalafrancaise--main{
   color: #a56799;
-  @include flexbox--section;
 }
 #lechicalafrancaise--dessert{
   color: #6e4ccc;
-  @include flexbox--section;
 }
 
 .lechicalafrancaise--flex span{
