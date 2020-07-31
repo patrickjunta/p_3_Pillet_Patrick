@@ -1,0 +1,12 @@
+// Aside Bar "Prochainement"
+
+aside {
+    font-size: 2rem;
+    @include flexbox--aside;
+    width: 40%;
+    max-height: 8vh;
+    border-radius: 50px;
+    background: color(primary);
+    color: color(secondary);
+    margin-left: 30%;
+  }

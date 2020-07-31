@@ -43,7 +43,6 @@ nav#parent {
 #lanoteenchantee--card {
   background: #fcdfdb;
 }
-
 #lanoteenchantee--card h2 {
   color: #492025;
   font-family: "Devonshire", cursive;
@@ -98,17 +97,6 @@ nav#parent {
   padding-right: 7px;
 }
 
-aside {
-  font-size: 2rem;
-  @include flexbox--aside;
-  width: 40%;
-  max-height: 8vh;
-  border-radius: 50px;
-  background: color(primary);
-  color: color(secondary);
-  margin-left: 30%;
-}
-
 // Animation jumpingDots dans l'aside inférieur 
 .loading span {
   width: 12px;
@@ -142,7 +130,6 @@ aside {
 section {
   @include flexbox--section;
 }
-
 section p {
   font-size: 1.4rem;
   line-height: 2.1;
@@ -205,7 +192,6 @@ h4:hover {
 }
   
 #lechicalafrancaise--entree{
-    // text-align: center; 
     color: #c67412;
     font-size: 1.3rem;
     @include flexbox--section--tablette;
@@ -220,7 +206,6 @@ h4:hover {
   @include flexbox--section--tablette;
   font-size: 1.3rem;
   margin-bottom: 20px;
-  // @include flexbox--section;
 }
 #lechicalafrancaise {
   height: 1100px;
@@ -237,6 +222,7 @@ aside{
     width: 100%;
     margin-bottom: 10vh;
 }
+
 section { 
   @include flexbox--section--tablette;
  }
@@ -276,6 +262,7 @@ section {
       color: color(secondary);
       margin: 10% 0 30% 0;
     }
+
   footer{
     position: fixed;
     bottom: 0px;
@@ -289,7 +276,6 @@ section {
     max-height: 20vh;
     background-color: color(primary);
   }
-
   footer a{
     font-size: 1.3rem;
     font-weight: 600;
@@ -299,13 +285,11 @@ section {
     width: 80%;
     text-decoration: none;
   }
-
   footer a:hover {
       text-decoration: none;
       animation: shake .2s ease-in-out .2s infinite alternate;
       -webkit-animation: shake .2s ease-in-out .2s infinite alternate;
   }
-
   footer a:focus{
       text-decoration: none;
   }
@@ -339,7 +323,6 @@ section {
     margin: 5%;
   }
 #lechicalafrancaise--entree{
-    // text-align: center; 
     color: #c67412;
     font-size: 1.4rem;
     @include flexbox--section--tablette;
@@ -355,10 +338,12 @@ section {
   font-size: 1.4rem;
   margin-bottom: 20px;
 }
+
 #container__menu--ledelicedespapilles h4{
   font-size: 1.7rem;
 }
 #container__menu--ledelicedespapilles h4{
   font-size: 1.6rem;
 }
+
 } //fin mediaqueries mobile
