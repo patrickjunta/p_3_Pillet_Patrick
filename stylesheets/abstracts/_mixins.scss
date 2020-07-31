@@ -56,15 +56,17 @@
   justify-content: space-around;
   align-items: stretch;
 }
-
-// @mixin flexbox--section--tablette {
-//   width: 100%;
-//   margin: auto;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-between;
-//   align-items: stretch;
-// }
+// Mixin pour les sections pour tablette
+@mixin flexbox--section--tablette{
+  width: 100%;
+  padding: 0px 10px;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  line-height: 1.9;
+}
 
 /// Mixin pour les box-shadow
 @mixin box-shadow {
@@ -93,8 +95,6 @@
     -ms-transform: scale(1.07);
     -o-transform: scale(1.07);
 }
-
-
 
 @mixin border-radius {
   border-radius: 50px;

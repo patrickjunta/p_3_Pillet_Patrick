@@ -249,62 +249,38 @@ aside {
 
 //mediaqueries tablette
 @media only screen and (min-width : 576px) and (max-width: 768px) {
-  main {
+  main#index {
     margin-top: 5%;
-    height: 1300px;
+    height: 1500px;
   }
   nav#parent {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
   }
 
   
   section { 
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding-left: 35px;
-    padding-right: 35px;
-    height: 15vh;
-    // @include flexbox--section;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    line-height: 2;
+    @include flexbox--section--tablette;
    }
    
   #lechicalafrancaise--entree{
     // text-align: center; 
     color: #c67412;
-    @include flexbox--section;
     font-size: 1.3rem;
-    height: 25vh;    // @include flexbox--section;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    line-height: 2;    // @include flexbox--section;
+    @include flexbox--section--tablette;
 }
 #lechicalafrancaise--main{
   color: #a56799;
-  @include flexbox--section;
-  font-size: 1.3rem;
-  height: 25vh;  // @include flexbox--section;
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  line-height: 2;  // @include flexbox--section;
+  @include flexbox--section--tablette;
+  font-size: 1.2rem;
 }
 #lechicalafrancaise--dessert{
   color: #6e4ccc;
-  @include flexbox--section;
+  @include flexbox--section--tablette;
   font-size: 1.3rem;
-  height: 25vh;  // @include flexbox--section;
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  line-height: 2;
   margin-bottom: 20px;
   // @include flexbox--section;
 }
@@ -320,7 +296,7 @@ aside {
     padding: 0;
     width: 65%;
     height: 20%;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     @include transform--scale1;
     @include transition;
   }
@@ -360,6 +336,7 @@ aside {
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
+    margin-bottom: 120px;
   }
 
   span{
@@ -412,7 +389,7 @@ aside {
   }
 
   img{
-    width: 35%;
+    width: 40%;
   }
   h6{
     margin:5%;
@@ -427,5 +404,27 @@ aside {
     text-align: center;
     margin: 5%;
   }
-
+  #lechicalafrancaise--entree{
+    // text-align: center; 
+    color: #c67412;
+    font-size: 1.4rem;
+    @include flexbox--section--tablette;
+}
+#lechicalafrancaise--main{
+  color: #a56799;
+  @include flexbox--section--tablette;
+  font-size: 1.4rem;
+}
+#lechicalafrancaise--dessert{
+  color: #6e4ccc;
+  @include flexbox--section--tablette;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+#container__menu--ledelicedespapilles h4{
+  font-size: 1.7rem;
+}
+#container__menu--ledelicedespapilles h4{
+  font-size: 1.6rem;
+}
 }
