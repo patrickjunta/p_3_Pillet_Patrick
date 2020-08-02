@@ -1,3 +1,8 @@
+# Oh my food by OpenClassrooms
+
+This is my homework project for OpenClassrooms curiculum. 
+
+
 # Sass Boilerplate
 
 This is a sample project using the [7-1 architecture pattern](http://sass-guidelin.es/#architecture) and sticking to [Sass Guidelines](http://sass-guidelin.es) writing conventions.
