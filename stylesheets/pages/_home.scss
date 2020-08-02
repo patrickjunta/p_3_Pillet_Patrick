@@ -42,40 +42,38 @@ nav#parent {
 
 #lanoteenchantee--card {
   background: #fcdfdb;
-}
-#lanoteenchantee--card h2 {
-  color: #492025;
-  font-family: "Devonshire", cursive;
-}
-#lanoteenchantee--card span {
-  color: #492025;
-  font-family: "Kaushan Script", cursive;
-  font-weight: 600;
+  h2 {
+    color: #492025;
+    font-family: "Devonshire", cursive;
+  }
+  span {
+    color: #492025;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 600;
+  }
 }
 
 #lechicalafrancaise--card {
   background: #fff5fe;
-}
-#lechicalafrancaise--card h2 {
-  background: linear-gradient(90deg, #d8852e, #905bfd);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  
-}
-#lechicalafrancaise--card a span {
-  -webkit-text-fill-color: initial;
-  color: #c77412;
-  font-family: "Roboto Slab", serif;
-  font-weight: 500;
+  h2 {
+    background: linear-gradient(90deg, #d8852e, #905bfd);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  a span {
+    -webkit-text-fill-color: initial;
+    color: #c77412;
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+  }
 }
 
 #ledelicedespapilles--card {
   background: #f9f9f9;
-}
-#ledelicedespapilles--card h2 {
+  h2 {
   background: linear-gradient(#1b46e2, #83a3f0);
   background-clip: text;
   -webkit-background-clip: text;
@@ -84,17 +82,18 @@ nav#parent {
   text-align: center;
   padding-left: 7px;
 }
-
-#lapalettedugout {
-  background: #fdfffd;
 }
-#lapalettedugout--card h2 {
-  background: linear-gradient(90deg, #5ea758, #d0fea2);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Kaushan Script", cursive;
-  padding-right: 7px;
+
+#lapalettedugout--card {
+  background: #fdfffd;
+  h2 {
+    background: linear-gradient(90deg, #5ea758, #d0fea2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Kaushan Script", cursive;
+    padding-right: 7px;
+  }
 }
 
 // Animation jumpingDots dans l'aside inférieur 
@@ -129,11 +128,12 @@ nav#parent {
 
 section {
   @include flexbox--section;
+  p {
+    font-size: 1.4rem;
+    line-height: 2.1;
+  }
 }
-section p {
-  font-size: 1.4rem;
-  line-height: 2.1;
-}
+
 
 .menu--title, h2 {
   background: none;
@@ -339,9 +339,6 @@ section {
   margin-bottom: 20px;
 }
 
-#container__menu--ledelicedespapilles h4{
-  font-size: 1.7rem;
-}
 #container__menu--ledelicedespapilles h4{
   font-size: 1.6rem;
 }

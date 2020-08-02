@@ -1,8 +1,10 @@
 
-  
 #container__menu--lapalettedugout{
     // @include flexbox;
     font-family: 'Kaushan Script', cursive;
+    span{
+        float: right;
+    }    
 }
 
 #lapalettedugout h3{
@@ -13,8 +15,4 @@
     text-align: center;
     font-size: 3rem;
 }
-#container__menu--lapalettedugout span{
-    float: right;
-}    
-
 

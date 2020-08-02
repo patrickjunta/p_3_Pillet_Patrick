@@ -3,16 +3,6 @@
     font-family: 'Roboto Slab', serif;
 }
 
-#container__menu--lechicalafrancaise h3{
-    background: linear-gradient(90deg, #cb7d22, #c6a6fd);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-
-}
-
 #container__menu--lechicalafrancaise{
   font-family: 'Roboto Slab', serif;
   // @include flexbox;
@@ -20,6 +10,14 @@
   background: #fff5fe;
   margin-bottom: 10vh;
   overflow: hidden;
+  h3{
+    background: linear-gradient(90deg, #cb7d22, #c6a6fd);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
 }
 // .lechicalafrancaise--flex{
 //   line-height: 2;
@@ -56,7 +54,7 @@
     border-left: 150px solid transparent;
     border-right: 25px solid transparent;
     border-bottom: 5px solid #c67412;
-  }
+}
   
 #triangle-2--orange {
     width: 0;
@@ -64,12 +62,12 @@
     border-left: 150px solid transparent;
     border-right: 25px solid transparent;
     border-top: 5px solid #c67412;
-  }
+}
 
 .triangle--right{
     display: flex;
     flex-direction: column;
-  }
+}
 
 #triangle-3--orange {
     width: 0;
@@ -77,76 +75,75 @@
     border-left: 25px solid transparent;
     border-right: 150px solid transparent;
     border-bottom: 5px solid #c67412;
-  }
+}
   
-  #triangle-4--orange {
-    width: 0;
-    height: 0;
-    border-left: 25px solid transparent;
-    border-right: 150px solid transparent;
-    border-top: 5px solid #c67412;
-  }
+#triangle-4--orange {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 5px solid #c67412;
+}
 
 #triangle-1--purple {
-    width: 0;
-    height: 0;
-    border-left: 150px solid transparent;
-    border-right: 25px solid transparent;
-    border-bottom: 5px solid #a56799;
-  }
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 5px solid #a56799;
+}
   
 #triangle-2--purple {
-    width: 0;
-    height: 0;
-    border-left: 150px solid transparent;
-    border-right: 25px solid transparent;
-    border-top: 5px solid #a56799;
-  }
-
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 5px solid #a56799;
+}
 #triangle-3--purple {
-    width: 0;
-    height: 0;
-    border-left: 25px solid transparent;
-    border-right: 150px solid transparent;
-    border-bottom: 5px solid #a56799;
-  }
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 5px solid #a56799;
+}
   
-  #triangle-4--purple {
-    width: 0;
-    height: 0;
-    border-left: 25px solid transparent;
-    border-right: 150px solid transparent;
-    border-top: 5px solid #a56799;
-  }
+#triangle-4--purple {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 5px solid #a56799;
+}
 #triangle-1--blue {
-    width: 0;
-    height: 0;
-    border-left: 150px solid transparent;
-    border-right: 25px solid transparent;
-    border-bottom: 5px solid #6e4ccc;
-  }
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 5px solid #6e4ccc;
+}
   
 #triangle-2--blue {
-    width: 0;
-    height: 0;
-    border-left: 150px solid transparent;
-    border-right: 25px solid transparent;
-    border-top: 5px solid #6e4ccc;
-  }
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 5px solid #6e4ccc;
+}
 
 #triangle-3--blue {
-    width: 0;
-    height: 0;
-    border-left: 25px solid transparent;
-    border-right: 150px solid transparent;
-    border-bottom: 5px solid #6e4ccc;
-  }
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 5px solid #6e4ccc;
+}
   
-  #triangle-4--blue {
-    width: 0;
-    height: 0;
-    border-left: 25px solid transparent;
-    border-right: 150px solid transparent;
-    border-top: 5px solid #6e4ccc;
-  }
+#triangle-4--blue {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 5px solid #6e4ccc;
+}
   

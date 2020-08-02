@@ -9,14 +9,15 @@ i {
   // @include flexbox;
   background: #fcdfdb;
   font-family: "Devonshire", cursive;
+  h3 {
+    font-size: 44px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  p {
+    width: 100%;
+  }
 }
-
-#container__menu--lanoteenchantee h3 {
-  font-size: 44px;
-  letter-spacing: 2px;
-  text-align: center;
-}
-
 
 .menu__sub--title{
   display: flex;
@@ -24,16 +25,12 @@ i {
   align-items: center;
 }
 
-#container__menu--lanoteenchantee p {
-  width: 100%;
-}
-
 .lanoteenchantee--flex{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-}
-.lanoteenchantee--flex span{
-  float: right;
+  span{
+    float: right;
+  }
 }
