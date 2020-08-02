@@ -9,9 +9,7 @@
 
 #lapalettedugout h3{
     background: linear-gradient(90deg, #5ea758, #d0fea2);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include linear-gradient;
     text-align: center;
     font-size: 3rem;
 }

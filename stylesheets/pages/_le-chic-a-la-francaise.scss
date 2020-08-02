@@ -12,9 +12,7 @@
   overflow: hidden;
   h3{
     background: linear-gradient(90deg, #cb7d22, #c6a6fd);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include linear-gradient;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
   }

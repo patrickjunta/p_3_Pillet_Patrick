@@ -101,4 +101,8 @@
   border-radius: 50px;
 }
     
-
+@mixin linear-gradient {
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

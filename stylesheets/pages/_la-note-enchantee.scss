@@ -1,8 +1,6 @@
 i {
   background: linear-gradient(90deg, #f15861, #f78f6a);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  @include linear-gradient;
 }
 
 #container__menu--lanoteenchantee{

@@ -725,9 +725,9 @@ nav#parent {
 }
 
 #ledelicedespapilles--card h2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1b46e2), to(#83a3f0));
-  background: linear-gradient(#1b46e2, #83a3f0);
-  background-clip: text;
+  background: -webkit-gradient(linear, left top, right top, from(#1b46e2), to(#83a3f0));
+  background: linear-gradient(90deg, #1b46e2, #83a3f0);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Dancing Script", cursive;
@@ -742,7 +742,7 @@ nav#parent {
 #lapalettedugout--card h2 {
   background: -webkit-gradient(linear, left top, right top, from(#5ea758), to(#d0fea2));
   background: linear-gradient(90deg, #5ea758, #d0fea2);
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Kaushan Script", cursive;
@@ -1395,8 +1395,8 @@ i {
 }
 
 #ledelicedespapilles h3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1b46e2), to(#83a3f0));
-  background: linear-gradient(#1b46e2, #83a3f0);
+  background: -webkit-gradient(linear, left top, right top, from(#1b46e2), to(#83a3f0));
+  background: linear-gradient(90deg, #1b46e2, #83a3f0);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

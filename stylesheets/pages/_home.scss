@@ -57,9 +57,7 @@ nav#parent {
   background: #fff5fe;
   h2 {
     background: linear-gradient(90deg, #d8852e, #905bfd);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include linear-gradient;
     font-family: "Montserrat", sans-serif;
     text-align: center;
   }
@@ -74,10 +72,8 @@ nav#parent {
 #ledelicedespapilles--card {
   background: #f9f9f9;
   h2 {
-  background: linear-gradient(#1b46e2, #83a3f0);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#1b46e2, #83a3f0);
+  @include linear-gradient;
   font-family: "Dancing Script", cursive;
   text-align: center;
   padding-left: 7px;
@@ -88,9 +84,7 @@ nav#parent {
   background: #fdfffd;
   h2 {
     background: linear-gradient(90deg, #5ea758, #d0fea2);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include linear-gradient;
     font-family: "Kaushan Script", cursive;
     padding-right: 7px;
   }

@@ -6,10 +6,8 @@
 
 
 #ledelicedespapilles h3{
-    background: linear-gradient(#1b46e2, #83a3f0);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#1b46e2, #83a3f0);
+    @include linear-gradient;
     text-align: center;
     font-size: 3rem;
 }
