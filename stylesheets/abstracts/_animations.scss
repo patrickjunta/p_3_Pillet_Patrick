@@ -1,21 +1,56 @@
 
 // Keyframes pour l'animation Loading jumping dots
-@keyframes jumpingDots {
-    30%{
-      transform: translateY(0px);
-      -webkit-transform: translateY(0px);
-      -moz-transform: translateY(0px);
-      -ms-transform: translateY(0px);
-      -o-transform: translateY(0px);
-  }
-    50%{
-      transform: translateY(-20px);
-      -webkit-transform: translateY(-20px);
-      -moz-transform: translateY(-20px);
-      -ms-transform: translateY(-20px);
-      -o-transform: translateY(-20px);
-  }
-  }
+// @keyframes jumpingDots {
+//     30%{
+//       transform: translateY(0px);
+//       -webkit-transform: translateY(0px);
+//       -moz-transform: translateY(0px);
+//       -ms-transform: translateY(0px);
+//       -o-transform: translateY(0px);
+//   }
+//     50%{
+//       transform: translateY(-20px);
+//       -webkit-transform: translateY(-20px);
+//       -moz-transform: translateY(-20px);
+//       -ms-transform: translateY(-20px);
+//       -o-transform: translateY(-20px);
+//   }
+//   }
+
+
+
+// @keyframes jumpingDots {
+//   0% {
+//     opacity: 0;
+//   }
+  
+//   30%{
+//     opacity: 0.5;
+//     transform: translateY(0px);
+//     -webkit-transform: tranlateY(0px);
+// }
+//   50%{
+//     opacity: 1;
+//     transform: translateY(-20px);
+//     -webkit-transform: translateY(-20px);
+// } 
+//   100%{
+//     opacity: 0;
+// }
+// }
+ 
+
+@keyframes loadingDots {
+    
+   
+  50%{
+    opacity: 0;
+    
+} 
+  
+}
+
+
 
   //Animation shake pour les liens footer
 @keyframes shake {
